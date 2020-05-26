@@ -9,24 +9,17 @@ body {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    z-index: 0;
-    color: #3a243b;
-    font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+    z-index: 1;
 }
 
 #nav-bar a {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: .5px;
+    color: #3a243b;
+    font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#nav-bar li {
-    display: inline-block;
-    text-decoration: none;
-    text-align: right;
-    
-}
 
 .main {
     padding-top: 100px;
