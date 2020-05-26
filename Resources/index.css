@@ -49,14 +49,7 @@ body {
     color: #3a243b;
     letter-spacing: 1.5px;
     line-height: 1.1px;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: cCVGOJ;
+
 }
 
 .social-media {
