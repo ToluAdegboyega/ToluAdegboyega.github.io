@@ -44,8 +44,11 @@ body {
     display: inline;
 }
 
-.main-body {
+.main {
     height: 100vh;
+}
+
+.main-body {
     display: flex;
     flex-direction: column;
     -webkit-box-pack: center;
