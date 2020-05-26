@@ -7,7 +7,7 @@ body {
 #nav-bar {
     position: fixed;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     list-style-type: none;
     text-decoration: none;
     background-color: #fff5d7;
@@ -22,7 +22,8 @@ body {
     letter-spacing: .5px;
     color: #3a243b;
     font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
 }
 
 
