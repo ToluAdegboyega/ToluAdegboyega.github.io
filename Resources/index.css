@@ -1,7 +1,7 @@
 body {
     background-color: #fff5d7;
     font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: darkmagenta;
+    color: rgb(31, 1, 31);
 } 
 
 #nav-bar {
@@ -14,7 +14,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    color: darkmagenta;
     
 }
 
@@ -22,17 +21,16 @@ body {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: .5px;
-    color: darkmagenta;
     font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     list-style-type: none;
     text-decoration: none;
     
 }
 
-#nav-bar li {
+#nav-bar a {
     list-style-type: none;
-    color: darkmagenta;
     text-decoration: none;
+    color: rgb(31, 1, 31)
 }
 
 
@@ -53,7 +51,7 @@ body {
 .main-body h1 {
     font-weight: 700;
     font-size: 50px;
-    color: darkmagenta;
+    color: rgb(31, 1, 31);
     line-height: 50px;
     text-align: left;
     padding: 50px;
