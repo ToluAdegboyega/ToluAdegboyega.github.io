@@ -30,4 +30,14 @@ body {
 .main {
     padding-top: 100px;
     height: 100vh;
+    color: #3a243b;
+    letter-spacing: .0.5px;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: cCVGOJ;
 }
