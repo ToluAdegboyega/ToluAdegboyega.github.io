@@ -6,6 +6,9 @@ body {
 
 #nav-bar {
     position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
 
 }
 
