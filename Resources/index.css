@@ -3,3 +3,7 @@ body {
     font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #3a243b;
 } 
+
+.main-header {
+    position: fixed;
+}
