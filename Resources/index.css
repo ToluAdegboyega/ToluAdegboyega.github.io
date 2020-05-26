@@ -4,7 +4,7 @@ body {
     color: rgb(31, 1, 31);
 } 
 
-#nav-bar {
+.nav-bar {
     position: fixed;
     list-style-type: none;
     text-decoration: none;
@@ -17,7 +17,7 @@ body {
     
 }
 
-#nav-bar ul {
+.nav-bar ul {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: .5px;
@@ -27,7 +27,7 @@ body {
     
 }
 
-#nav-bar a {
+.nav-bar a {
     list-style-type: none;
     text-decoration: none;
     color: rgb(31, 1, 31)
