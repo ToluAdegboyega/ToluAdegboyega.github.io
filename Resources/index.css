@@ -4,6 +4,6 @@ body {
     color: #3a243b;
 } 
 
-.main-header {
+#nav-bar {
     position: fixed;
 }
