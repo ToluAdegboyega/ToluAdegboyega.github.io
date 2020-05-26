@@ -19,6 +19,13 @@ body {
     position: fixed;
 }
 
-.nav-bar li {
-    display: inline;
+.nav-bar ul {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+.nav-bar a {
+    color: midnightblue;
+    text-decoration: none;
 }
