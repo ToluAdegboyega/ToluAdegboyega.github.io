@@ -1,67 +1,11 @@
-:root {
-    font-size: 10px;
-    --bg: white;
-    --font-color: black;
-    --btn-bg: black;
-    --btn-color: white;
-  }
-  
-  [data-mode="dark"] {
-    --bg: black;
-    --font-color: white;
-    --btn-bg: white;
-    --btn-color: black;
-  }
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
 
-  :root {
-    font-size: 10px;
-    --bg: white;
-    --font-color: black;
-    --btn-bg: black;
-    --btn-color: white;
-  }
-  
-  [data-mode="dark"] {
-    --bg: black;
-    --font-color: white;
-    --btn-bg: white;
-    --btn-color: black;
-  }
-  
-  body {
-    width: 100vw;
-    font-size: 2rem;
-    background-color: var(--bg);
-    color: var(--font-color);
-  }
-  
-  #toggle {
-    margin-right: 2rem;
-    width: 6rem;
-    height: 3.4rem;
-    border-radius: 3rem;
-    background-color: var(--btn-bg);
-  }
-  
-  #toggle input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  #slider {
-    position: absolute;
-    z-index: 5;
-    cursor: pointer;
-    height: 2.5rem;
-    width: 2.5rem;
-    top: 1.23rem;
-    right: 1.8rem;
-    border-radius: 3rem;
-    background-color: var(--btn-color);
-    transition: ease-in .2s;
-  }
-  
-  #slider.dark {
-    right: 4.2rem;
+.dark-mode {
+    background-color: black;
+    color: white;
   }
