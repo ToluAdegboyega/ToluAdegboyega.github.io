@@ -10,12 +10,12 @@ body {
     justify-content: flex-end;
     list-style-type: none;
     z-index: 0;
+    color: #3a243b;
+    font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 }
 
 #nav-bar a {
-    text-align: right;
-    text-decoration: none;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: .5px;
@@ -23,10 +23,8 @@ body {
 
 #nav-bar li {
     display: inline-block;
-    color: #3a243b;
-    font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    list-style-type: none;
-    list-style-position: outside;
+    text-decoration: none;
+    text-align: right;
     
 }
 
