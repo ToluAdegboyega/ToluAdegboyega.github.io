@@ -9,7 +9,6 @@ body {
     display: flex;
     justify-content: right;
     list-style-type: none;
-    z-index: 1;
     text-decoration: none;
     background-color: #fff5d7;
 }
