@@ -4,7 +4,7 @@ body {
     color: #3a243b;
 } 
 
-#.main-header {
+.main-header {
     position: fixed;
     list-style-type: none;
     text-decoration: none;
