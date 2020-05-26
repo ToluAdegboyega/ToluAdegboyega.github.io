@@ -6,8 +6,8 @@ body {
 
 #nav-bar {
     position: fixed;
-    display: flex;
-    justify-content: flex-end;
+    display: inline;
+    text-align: right;
     list-style-type: none;
     text-decoration: none;
     background-color: #fff5d7;
