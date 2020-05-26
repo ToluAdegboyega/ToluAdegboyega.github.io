@@ -27,6 +27,10 @@ body {
     
 }
 
+#nav-bar li {
+    list-style-type: none;
+}
+
 
 .main {
     height: 100vh;
