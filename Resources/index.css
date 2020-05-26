@@ -3,3 +3,15 @@ body {
     background-color:  #fff5d7;
     color: rgb(36, 0, 36);
 }
+
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fff5d7;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    color: rgb(36, 0, 36);
+}
