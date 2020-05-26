@@ -6,7 +6,18 @@ body {
 
 #nav-bar {
     position: fixed;
-    text-align: left;
-    text-decoration: none;
-    
+
 }
+
+#nav-bar a {
+    color: #3a243b;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: right;
+    list-style-type: none;
+    list-style-position: outside;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
