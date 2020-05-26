@@ -22,8 +22,6 @@ body {
 
 .main-header ul {
     padding: 0px;
-    list-style-position: outside;
-    list-style-type: none;
 }
 
 .main-header li {
