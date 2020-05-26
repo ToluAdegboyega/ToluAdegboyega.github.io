@@ -25,12 +25,14 @@ body {
     color: darkmagenta;
     font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     list-style-type: none;
+    text-decoration: none;
     
 }
 
 #nav-bar li {
     list-style-type: none;
     color: darkmagenta;
+    text-decoration: none;
 }
 
 
