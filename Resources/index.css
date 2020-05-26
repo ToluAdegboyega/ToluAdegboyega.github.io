@@ -39,7 +39,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100%;
     justify-content: flex-start;
     padding: 50px;
 }
@@ -64,7 +63,6 @@ body {
 
 .down-arrow {
     padding-top: 100px;
-    width: 80%;
     text-align: center;
     align-self: flex-end;
     margin: -14vh auto 0px;
