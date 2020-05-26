@@ -5,6 +5,10 @@ body {
     position: relative;
 }
 
+.main-header {
+    color: midnightblue;
+}
+
 .nav-bar {
     list-style-type: none;
     text-align: right;
