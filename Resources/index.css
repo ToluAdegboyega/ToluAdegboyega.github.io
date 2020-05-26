@@ -7,9 +7,10 @@ body {
 #nav-bar {
     position: fixed;
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
     list-style-type: none;
     z-index: 1;
+    text-decoration: none;
 }
 
 #nav-bar a {
