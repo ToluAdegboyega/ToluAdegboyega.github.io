@@ -44,14 +44,16 @@ body {
     display: inline;
 }
 
-.main {
-    height: 80vh;
-}
 
 .main-body {
+    height: 90vh;
     display: flex;
     flex-direction: column;
     -webkit-box-pack: center;
     justify-content: center;
     margin: 0px auto;
+}
+
+.down-arrow {
+    height: 10vh;
 }
