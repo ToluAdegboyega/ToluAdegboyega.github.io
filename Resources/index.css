@@ -29,3 +29,7 @@ body {
     color: midnightblue;
     text-decoration: none;
 }
+
+.nav-bar li{
+    display: inline;
+}
