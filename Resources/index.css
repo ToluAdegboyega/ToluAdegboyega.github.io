@@ -6,14 +6,12 @@ body {
 
 #nav-bar {
     position: fixed;
-    display: flex;
-    justify-content: flex-end;
     list-style-type: none;
     text-decoration: none;
     background-color: #fff5d7;
-    top: 0;
-    left: 0;
     width: 100%;
+    display: inline-block;
+    text-align: right;
 }
 
 #nav-bar ul {
@@ -23,7 +21,7 @@ body {
     color: #3a243b;
     font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     list-style-type: none;
-    display: inline-block;
+    
 }
 
 
