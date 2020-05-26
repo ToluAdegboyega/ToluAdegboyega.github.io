@@ -46,4 +46,9 @@ body {
 
 .main-body {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0px auto;
 }
