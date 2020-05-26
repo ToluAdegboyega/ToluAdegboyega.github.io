@@ -6,4 +6,7 @@ body {
 
 #nav-bar {
     position: fixed;
+    text-align: left;
+    text-decoration: none;
+    
 }
