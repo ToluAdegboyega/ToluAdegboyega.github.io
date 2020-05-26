@@ -36,20 +36,17 @@ body {
 .main {
     height: 100vh;
     color: #3a243b;
-    letter-spacing: .0.5px;
-    
 }
 
 .main-body {
     padding-top: 100px;
+    color: #3a243b;
 }
 
 .main-body h1 {
     font-weight: 700;
     font-size: 50px;
     color: #3a243b;
-    letter-spacing: 1.5px;
-    line-height: 1.1px;
 
 }
 
