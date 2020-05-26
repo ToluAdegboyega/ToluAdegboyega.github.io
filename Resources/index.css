@@ -10,26 +10,23 @@ body {
 
 }
 
-#nav-bar a {
-    
-}
-
-#nav-bar li {
-    display: inline-block;
-    margin: 0 10px;
-    vertical-align: top;
-    color: #3a243b;
-    text-decoration: none;
-    font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+#nav-bar ul {
     text-align: right;
-    list-style-type: none;
-    list-style-position: outside;
-    font-size: 14px;
+    text-decoration: none;
+    font-size: 25px;
     font-weight: 600;
     letter-spacing: .5px;
 }
 
+#nav-bar li {
+    display: inline-block;
+    color: #3a243b;
+    font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    list-style-position: outside;
+    
+}
+
 .main {
-    margin-top: 100px;
     padding-top: 100px;
 }
