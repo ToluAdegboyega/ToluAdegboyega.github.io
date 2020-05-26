@@ -8,23 +8,8 @@ body {
     position: fixed;
     top: 0px;
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
-    width: 100vw;
+    width: 100%;
     padding: 15px;
     margin: 0px auto;
-}
-
-.main-header nav {
-    margin-top: 2px;
-}
-
-.main-header ul {
-    padding: 0px;
-}
-
-.main-header li {
-    list-style-type: none;
-    margin: 0;
 }
