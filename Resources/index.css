@@ -12,7 +12,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
     
 }
 
