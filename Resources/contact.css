@@ -5,7 +5,7 @@ body {
     font-size: 25px;
 }
 
-.dark-mode {
+.theme-switch {
     background-color: black;
     color: white;
   }
