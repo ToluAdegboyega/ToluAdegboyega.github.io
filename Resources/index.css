@@ -7,8 +7,7 @@ body {
 
 .nav-bar {
     list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
+    text-align: right;
     background-color: #fff5d7;
     top: 0;
     left: 0;
