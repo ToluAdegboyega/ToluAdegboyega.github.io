@@ -46,4 +46,6 @@ body {
 .main-body h1 {
     font-weight: 700;
     font-size: 50px;
+    color: #3a243b;
+    letter-spacing: .0.5px;
 }
