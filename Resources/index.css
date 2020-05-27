@@ -52,7 +52,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0px auto;
-    background-image: url('Resources\background.png') center center no-repeat;
+    background-image: url('background.png') center center no-repeat;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
