@@ -49,17 +49,22 @@ body {
     height: 80vh;
     display: flex;
     flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     margin: 0px auto;
-    background-image: url('Resources\PngItem_5308654.png');
+    background: url('Resources\PngItem_5308654.png') center center no-repeat;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .down-arrow {
     height: 20vh;
+}
+
+.name-carousel {
+    font-size: 80px;
+    color: midnightblue;
 }
 
 
