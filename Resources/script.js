@@ -1,7 +1,6 @@
-import Typed from typed.js
 
-const typed = new Typed('.typed', {
-  stringsElement: '.typed-strings',
+const typed = new Typed('#typed', {
+  stringsElement: '#typed-strings',
   startDelay: 700,
   loop: true,
   typeSpeed: 39,
