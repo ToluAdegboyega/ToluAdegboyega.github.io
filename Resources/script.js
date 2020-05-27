@@ -1,3 +1,5 @@
+import Typed from typed.js
+
 const typed = new Typed('.typed', {
   stringsElement: '.typed-strings',
   startDelay: 700,
