@@ -1,4 +1,4 @@
-const typed = new typed('.typed', {
+const typed = new Typed('.typed', {
   stringsElement: '.typed-strings',
   startDelay: 700,
   loop: true,
