@@ -46,7 +46,7 @@ body {
 
 
 .main-body {
-    height: 90vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     -webkit-box-pack: center;
@@ -55,5 +55,5 @@ body {
 }
 
 .down-arrow {
-    height: 10vh;
+    height: 20vh;
 }
