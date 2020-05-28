@@ -56,8 +56,8 @@ body {
     background-attachment: fixed; 
     background-size: cover;
     width: auto;
-    margin-left: -7px;
-    margin-right: -7px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .main-body {
@@ -107,14 +107,12 @@ body {
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 40px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     border-radius: 50px;  
-    width: 30px;
-    height: 30px;
-    border: 1px solid midnightblue;
+    border: 3px solid midnightblue;
 }
 
 .social-media li{
