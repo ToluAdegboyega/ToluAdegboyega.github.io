@@ -44,8 +44,7 @@ body {
     display: inline;
 }
 
-#home-page {
-    float: left;
+.home-page {
     font-weight: 300;
 }
 
