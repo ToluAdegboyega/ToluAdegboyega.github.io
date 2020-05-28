@@ -45,7 +45,7 @@ body {
 }
 
 .main {
-    background: url(Resources\background.png) center center no-repeat;
+    background: url(../Resources/background.png) center center no-repeat;
     background-attachment: fixed; 
     background-size: cover;
 }
