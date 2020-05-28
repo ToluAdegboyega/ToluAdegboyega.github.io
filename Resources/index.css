@@ -44,7 +44,7 @@ body {
     display: inline;
 }
 
-.home-page {
+#home-page {
     float: left;
     font-weight: 300;
 }
@@ -54,7 +54,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
-    width: 1000px;
+    width: 100vw;
 }
 
 .main-body {
