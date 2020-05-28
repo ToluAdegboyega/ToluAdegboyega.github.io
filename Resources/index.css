@@ -53,7 +53,8 @@ body {
     background: url(../Resources/retina-wood.png);
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-size: 100% 100%;
+    background-size: cover;
+    width: 1000px;
 }
 
 .main-body {
