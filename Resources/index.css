@@ -24,7 +24,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 50px;
-    padding-left: 100px;
+    padding-left: 50px;
 
 }
 
@@ -47,6 +47,7 @@ body {
 .home-page a {
     font-weight: 300;
     float: left;
+    margin-left: 30px;
 }
 
 .main {
