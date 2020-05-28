@@ -49,12 +49,10 @@ body {
 }
 
 .main {
-    background: url(../Resources/retina-wood.png) center center no-repeat;
+    background: url(../Resources/retina-wood.png);
+    background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-size: cover;
-    width: 100%;
-    left: 0;
-    right: 0;
+    background-size: 100% 100%;
 }
 
 .main-body {
