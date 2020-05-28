@@ -44,9 +44,9 @@ body {
     display: inline;
 }
 
-#home-page {
+.home-page {
     float: left;
-    clear: inherit;
+    clear: both;
 }
 
 .main {
