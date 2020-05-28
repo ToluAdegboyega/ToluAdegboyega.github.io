@@ -46,23 +46,21 @@ body {
 
 .main {
     background: url(Resources\background.png) center center no-repeat;
-    background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
 }
 
 .main-body {
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0px auto;
-    padding-top: 20px;
 }
 
 .down-arrow {
-    height: 20vh;
+    height: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
