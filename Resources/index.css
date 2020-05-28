@@ -47,6 +47,7 @@ body {
 #home-page {
     float: left;
     font-weight: 300;
+    top: 0;
 }
 
 .main {
@@ -54,7 +55,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
-    width: 100vw;
+    width: auto;
 }
 
 .main-body {
