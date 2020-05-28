@@ -96,7 +96,6 @@ body {
     padding-bottom: 10px;
     padding-right: 50px;
     padding-left: 50px;
-
 }
 
 .social-media a {
@@ -109,12 +108,13 @@ body {
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-    border-radius: 50%;
+    
     
 }
 
 .social-media li{
     display: inline;
+    border-radius: 50%;
 }
 
 
