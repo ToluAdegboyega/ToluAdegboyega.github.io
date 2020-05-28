@@ -54,6 +54,8 @@ body {
     background-attachment: fixed; 
     background-size: cover;
     width: 100%;
+    left: 0;
+    right: 0;
 }
 
 .main-body {
