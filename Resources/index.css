@@ -107,9 +107,11 @@ body {
     letter-spacing: 1px;
     font-size: 40px;
     padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
     border-radius: 50px;  
     border: 3px solid midnightblue;
     -webkit-transition:all 0.5s ease-out;
