@@ -1,9 +1,11 @@
 body {
     font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color:  #d32121;
+    background-color:  white;
     color: midnightblue;
     position: relative;
 }
+
+// #d32121
 
 .main-header {
     color: midnightblue;
@@ -12,7 +14,7 @@ body {
 .nav-bar {
     list-style-type: none;
     text-align: right;
-    background-color: white;
+    background-color: #d32121;
     top: 0;
     left: 0;
     width: 100%;
@@ -51,7 +53,7 @@ body {
 }
 
 .main {
-    background: url(../Resources/112667-red-blurred-background-vector.jpg);
+    background: url(../Resources/rsz_1112667-red-blurred-background-vector.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
