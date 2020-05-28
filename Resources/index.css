@@ -31,7 +31,7 @@ body {
 }
 
 .nav-bar a {
-    color: white;
+    color: #000060;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -56,7 +56,7 @@ body {
 }
 
 .main {
-    background: url(../Resources/rsz_1112667-red-blurred-background-vector.jpg);
+    background: url(../Resources/rsz_1rsz_1112667-red-blurred-background-vector.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
@@ -141,11 +141,11 @@ body {
 }
 
 .nav-bar a:hover {
-    -webkit-transform:translate(0px,-10px);
-    -moz-transform:translate(0px,-10px);
-    -ms-transform:translate(0px,-10px);
-    -o-transform:translate(0px,-10px);
-    transform:translate(0px,-10px);
+    -webkit-transform:translate(0px,10px);
+    -moz-transform:translate(0px,10px);
+    -ms-transform:translate(0px,10px);
+    -o-transform:translate(0px,10px);
+    transform:translate(0px,10px);
 }
 
 .home-page a:hover {
