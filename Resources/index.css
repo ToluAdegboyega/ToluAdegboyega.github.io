@@ -7,9 +7,6 @@ body {
 
 .main-header {
     color: midnightblue;
-    background: url(../Resources/retina-wood.png) center center no-repeat;
-    background-attachment: fixed; 
-    background-size: cover;
 }
 
 .nav-bar {
@@ -47,10 +44,15 @@ body {
     display: inline;
 }
 
+#home-page {
+    text-align: left;
+}
+
 .main {
     background: url(../Resources/retina-wood.png) center center no-repeat;
     background-attachment: fixed; 
     background-size: cover;
+    width: 100%;
 }
 
 .main-body {
