@@ -46,6 +46,7 @@ body {
 
 #home-page {
     float: left;
+    clear: inherit;
 }
 
 .main {
