@@ -8,7 +8,7 @@ body {
 // #d32121
 
 .main-header {
-    color: midnightblue;
+    color: white;
 }
 
 .nav-bar {
@@ -31,7 +31,7 @@ body {
 }
 
 .nav-bar a {
-    color: midnightblue;
+    color: white;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -84,7 +84,7 @@ body {
 
 .main-body h1 {
     font-size: 60px;
-    color: midnightblue;
+    color: white;
 }
 
 .main-body p {
@@ -104,7 +104,7 @@ body {
 }
 
 .social-media a {
-    color: midnightblue;
+    color: white;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -116,7 +116,7 @@ body {
     margin-right: 15px;
     margin-left: 15px;
     border-radius: 50px;  
-    border: 3px solid midnightblue;
+    border: 3px solid white;
     -webkit-transition:all 0.5s ease-out;
     -moz-transition:all 0.5s ease-out;
     -ms-transition:all 0.5s ease-out;
@@ -137,5 +137,5 @@ body {
 }
 
 .nav-bar a:hover {
-    box-shadow: inset 0 0 0 2px midnightblue;
+    box-shadow: inset 0 0 0 2px white;
 }
