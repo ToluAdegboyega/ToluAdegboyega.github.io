@@ -1,11 +1,12 @@
 body {
     font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color:  #d32121;
+    background-color:  white;
     color: #000060;
     position: relative;
 }
 
-// #d32121
+// #d32121 #000060
+
 
 .main-header {
     color: white;
@@ -61,6 +62,7 @@ body {
 }
 
 .main {
+    background-color: #d32121;
     background: url(../Resources/imageedit_8_8751482520.png);
     background-repeat: no-repeat;
     background-attachment: fixed; 
