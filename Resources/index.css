@@ -62,7 +62,7 @@ body {
 }
 
 .main {
-    background-color: #d32121;
+    background-color: #d32121 !important;
     background: url(../Resources/imageedit_8_8751482520.png);
     background-repeat: no-repeat;
     background-attachment: fixed; 
