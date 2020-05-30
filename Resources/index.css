@@ -68,6 +68,10 @@ body {
     width: auto;
     margin-left: -8px;
     margin-right: -8px;
+    transition-property: all;
+    transition-duration: 0.37s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
 .main-body {
@@ -99,20 +103,13 @@ body {
 }
 
 .main-body p {
-    font-size: 30px;
+    font-size: 50px;
     color: #b768a2;
 }
 
 .social-media {
     text-align: center;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: cCVGOJ;
+
 }
 
 .social-media ul {
@@ -161,5 +158,5 @@ body {
 }
 
 #projects {
-    padding-top: 30px;
+    padding-top: 80px;
 }
