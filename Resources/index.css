@@ -89,6 +89,7 @@ body {
     justify-content: center;
     margin: 0px auto;
     font-size: 60px;
+    color: rgb(54, 53, 55);
 }
 
 .main-body h1 {
@@ -98,7 +99,7 @@ body {
 
 .main-body p {
     font-size: 30px;
-    color: black;
+    color: rgb(54, 53, 55);
 }
 
 .social-media {
