@@ -94,12 +94,12 @@ body {
 
 .main-body h1 {
     font-size: 80px;
-    color: rgb(54, 53, 55);
+    color: black;
 }
 
 .main-body p {
     font-size: 30px;
-    color: rgb(54, 53, 55);
+    color: black;
 }
 
 .social-media {
