@@ -94,6 +94,10 @@ body {
     font-size: 60px;
     color: #b768a2;
 }
+.down-arrow a {
+    text-decoration: none;
+    color: #b768a2
+}
 
 .main-body h1 {
     font-size: 80px;
@@ -160,5 +164,5 @@ body {
 }
 
 #projects {
-    padding-top: 100px;
+    padding-top: 120px;
 }
