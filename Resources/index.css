@@ -103,7 +103,7 @@ body {
 }
 
 .main-body p {
-    font-size: 50px;
+    font-size: 40px;
     color: #b768a2;
 }
 
@@ -158,5 +158,5 @@ body {
 }
 
 #projects {
-    padding-top: 80px;
+    padding-top: 100px;
 }
