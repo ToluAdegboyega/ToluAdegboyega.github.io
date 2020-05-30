@@ -71,7 +71,7 @@ body {
 }
 
 .main-body {
-    height: 90vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,7 +81,7 @@ body {
 }
 
 .down-arrow {
-    height: 10vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
