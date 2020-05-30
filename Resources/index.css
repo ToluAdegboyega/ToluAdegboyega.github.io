@@ -15,7 +15,7 @@ body {
 .nav-bar {
     list-style-type: none;
     text-align: right;
-    background-color: #d32121;
+    background-color: white;
     top: 0;
     left: 0;
     width: 100%;
@@ -62,7 +62,6 @@ body {
 }
 
 .main {
-    background-color: #d32121 !important;
     background: url(../Resources/imageedit_8_8751482520.png);
     background-repeat: no-repeat;
     background-attachment: fixed; 
