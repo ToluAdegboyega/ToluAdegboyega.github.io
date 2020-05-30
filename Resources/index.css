@@ -15,7 +15,7 @@ body {
 .nav-bar {
     list-style-type: none;
     text-align: right;
-    background-color: rgb(240, 236, 236);
+    background-color: rgb(243, 243, 243);
     top: 0;
     left: 0;
     width: 100%;
@@ -95,6 +95,8 @@ body {
 .main-body h1 {
     font-size: 80px;
     color:rgb(54, 53, 55);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .main-body p {
