@@ -1,7 +1,7 @@
 body {
     font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color:  white;
-    color: #000060;
+    color: black;
     position: relative;
 }
 
@@ -15,7 +15,7 @@ body {
 .nav-bar {
     list-style-type: none;
     text-align: right;
-    background-color: white;
+    background-color: #d32121;
     top: 0;
     left: 0;
     width: 100%;
@@ -32,7 +32,7 @@ body {
 }
 
 .nav-bar a {
-    color: #000060;
+    color: black;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -56,12 +56,13 @@ body {
     font-weight: 300;
     float: left;
     margin-left: 30px;
-    color: #000060;
+    color: black;
     font-size: 30px;
     font-family: 'Dancing Script', cursive, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .main {
+    background-color: #d32121 !important;
     background: url(../Resources/imageedit_8_8751482520.png);
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -93,12 +94,12 @@ body {
 
 .main-body h1 {
     font-size: 60px;
-    color: #d32121;
+    color: rgb(54, 53, 55);
 }
 
 .main-body p {
     font-size: 30px;
-    color: #000060;
+    color: rgb(54, 53, 55);
 }
 
 .social-media {
@@ -114,7 +115,7 @@ body {
 }
 
 .social-media a {
-    color: #d32121;
+    color: black;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -126,7 +127,7 @@ body {
     margin-right: 15px;
     margin-left: 15px;
     border-radius: 50px;  
-    border: 3px solid #d32121;
+    border: 3px solid black;
     -webkit-transition:all 0.5s ease-out;
     -moz-transition:all 0.5s ease-out;
     -ms-transition:all 0.5s ease-out;
