@@ -1,7 +1,7 @@
 body {
     font-family: 'Inconsolata', monospace, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color:  white;
-    color: rgb(54, 53, 55);
+    color: #b48395;
     position: relative;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .nav-bar a {
-    color: rgb(54, 53, 55);
+    color: #b48395;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -55,7 +55,7 @@ body {
     font-weight: 600;
     float: left;
     margin-left: 30px;
-    color: rgb(54, 53, 55);
+    color: #b48395;
     font-size: 30px;
     font-family: 'Dancing Script', cursive, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -88,7 +88,7 @@ body {
     justify-content: center;
     margin: 0px auto;
     font-size: 60px;
-    color: rgb(54, 53, 55);
+    color: #b48395;
 }
 
 .main-body h1 {
@@ -100,7 +100,7 @@ body {
 
 .main-body p {
     font-size: 30px;
-    color: rgb(54, 53, 55);
+    color: #b48395;
 }
 
 .social-media {
