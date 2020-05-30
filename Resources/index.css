@@ -104,12 +104,28 @@ body {
     color: #66023c;
     padding-top: 5px;
     padding-bottom: 5px;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: cCVGOJ;
 }
 
 .main-body p {
     font-size: 40px;
     color: #b768a2;
     text-align: center;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: cCVGOJ;
 
 }
 
@@ -124,6 +140,14 @@ body {
     padding-bottom: 10px;
     padding-right: 40px;
     padding-left: 40px;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: cCVGOJ;
 }
 
 .social-media a {
