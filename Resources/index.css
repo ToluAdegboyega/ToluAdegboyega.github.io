@@ -93,7 +93,7 @@ body {
 
 .main-body h1 {
     font-size: 80px;
-    color: #800080;
+    color: #66023c;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -124,7 +124,7 @@ body {
 }
 
 .social-media a {
-    color: #800080;
+    color: #66023c;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -136,7 +136,7 @@ body {
     margin-right: 15px;
     margin-left: 15px;
     border-radius: 50px;  
-    border: 3px solid purple;
+    border: 3px solid #66023c;
     -webkit-transition:all 0.5s ease-out;
     -moz-transition:all 0.5s ease-out;
     -ms-transition:all 0.5s ease-out;
