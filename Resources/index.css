@@ -159,3 +159,7 @@ body {
 .nav-bar a:hover {
     opacity:0.2;
 }
+
+#projects {
+    padding-top: 30px;
+}
