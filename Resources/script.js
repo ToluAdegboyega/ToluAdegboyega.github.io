@@ -7,3 +7,11 @@ var typed = new Typed('#typed', {
   backDelay: 3400,
 });
 
+function myFunction() {
+  var x = document.getElementById("my-navbar");
+  if (x.className === "nav-bar") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav-bar";
+  }
+}
