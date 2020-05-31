@@ -72,7 +72,7 @@ body {
 }
 
 .main-body {
-    min-height: 90vh - 56px;
+    min-height: 90vh - 26px;
     display: flex;
     flex-direction: column;
     align-items: center;
