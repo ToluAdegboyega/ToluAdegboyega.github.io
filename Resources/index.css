@@ -185,6 +185,9 @@ body {
 
     .main-body p {
         font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
     }
 
     .social-media a {
@@ -192,6 +195,7 @@ body {
     }
 
     .social-media ul {
+        padding-top: 5px;
         padding-right: 10px;
         padding-left: 10px;
     }
