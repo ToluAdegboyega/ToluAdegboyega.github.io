@@ -203,16 +203,16 @@ body {
         padding-left: 1px;
     }
 
-    .fab fa-twitter {
+    .social-media .fab fa-twitter {
         display: none;
     }
 
-    .fab fa-instagram {
+    .social-media .fab fa-instagram {
         display: none;
     }
 
-    .fas fa-envelope {
-        display:none;
+    .social-media .fas fa-envelope {
+        display: none;
     }
 
     .down-arrow {
