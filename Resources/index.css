@@ -194,13 +194,25 @@ body {
         font-size: 10px;
         padding-left: 1px;
         padding-right: 1px;
-        
+
     }
 
     .social-media ul {
         padding-top: 5px;
         padding-right: 1px;
         padding-left: 1px;
+    }
+
+    .fab fa-twitter {
+        display: none;
+    }
+
+    .fab fa-instagram {
+        display: none;
+    }
+
+    .fas fa-envelope {
+        display:none;
     }
 
     .down-arrow {
