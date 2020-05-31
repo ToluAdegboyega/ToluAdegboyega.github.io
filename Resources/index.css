@@ -199,4 +199,17 @@ body {
     .down-arrow {
         font-size: 30px;
     }
+
+    #projects {
+        padding-top: 120px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        padding-left: 5px;
+        padding-bottom: 50px;
+        padding-right: 5px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
   }
