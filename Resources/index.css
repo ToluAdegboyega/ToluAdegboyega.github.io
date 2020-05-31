@@ -202,6 +202,7 @@ body {
 
     .down-arrow {
         font-size: 50px;
+        padding-top: 5px;
     }
 
     #projects {
