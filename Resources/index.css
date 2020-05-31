@@ -69,7 +69,7 @@ body {
     width: auto;
     margin-left: -8px;
     margin-right: -8px;
-    min-height: 100vh;
+    min-height: 100%;
     
 }
 
@@ -175,31 +175,3 @@ body {
     text-align: center;
 
 }
-
-
-@media only screen and (max-width: 400px) {
-    .main {
-      min-height: 100vh;
-      display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0px auto;
-    }
-
-    .main-body h1 {
-        font-size: 40px;
-    }
-
-    .main-body p {
-        font-size: 20px;
-    }
-
-    .social-media a {
-        font-size: 20px;
-    }
-
-    .down-arrow {
-        font-size: 30px;
-    }
-  }
