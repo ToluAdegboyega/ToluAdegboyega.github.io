@@ -183,3 +183,25 @@ body {
 .style-conference p {
     text-align: center;
 }
+
+@media only screen and (max-width: 400px) {
+    .main {
+      min-height: 100vh;
+    }
+
+    .main-body h1 {
+        font-size: 40px;
+    }
+
+    .main-body p {
+        font-size: 20px;
+    }
+
+    .social-media a {
+        font-size: 20px;
+    }
+
+    .down-arrow {
+        font-size: 30px;
+    }
+  }
