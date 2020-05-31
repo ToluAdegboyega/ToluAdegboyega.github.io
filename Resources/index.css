@@ -178,10 +178,6 @@ body {
     .main {
         width: 100vw;
     }
-    
-    .main-body {
-        height: 70vh;
-    }
 
     .main-body h1 {
         font-size: 40px;
@@ -202,6 +198,5 @@ body {
 
     .down-arrow {
         font-size: 30px;
-        height: 30vh;
     }
   }
