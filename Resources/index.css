@@ -68,7 +68,8 @@ body {
     width: auto;
     margin-left: -8px;
     margin-right: -8px;
-  
+    
+}
 
 .main-body {
     height: 90vh;
@@ -100,14 +101,12 @@ body {
     color: #66023c;
     padding-top: -50px;
     padding-bottom: -50px;
-   
 }
 
 .main-body p {
     font-size: 40px;
     color: #b768a2;
     text-align: center;
-    
 
 }
 
@@ -122,7 +121,6 @@ body {
     padding-bottom: 10px;
     padding-right: 40px;
     padding-left: 40px;
-    
 }
 
 .social-media a {
