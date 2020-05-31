@@ -176,17 +176,15 @@ body {
 
 }
 
-.style-conference p {
-    text-align: center;
-}
-
-.style-conference p {
-    text-align: center;
-}
 
 @media only screen and (max-width: 400px) {
     .main {
       min-height: 100vh;
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
     }
 
     .main-body h1 {
