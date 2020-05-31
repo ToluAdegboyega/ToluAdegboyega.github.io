@@ -162,4 +162,10 @@ body {
 
 #projects {
     padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
 }
