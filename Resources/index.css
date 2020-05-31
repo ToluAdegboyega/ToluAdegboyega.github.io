@@ -192,6 +192,9 @@ body {
 
     .social-media a {
         font-size: 10px;
+        padding-left: 1px;
+        padding-right: 1px;
+        
     }
 
     .social-media ul {
