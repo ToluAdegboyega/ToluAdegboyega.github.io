@@ -175,6 +175,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    .main-body {
+        margin-top: 50px;
+    }
+    
     .main-body h1 {
         font-size: 40px;
     }
