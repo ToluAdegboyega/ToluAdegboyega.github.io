@@ -243,7 +243,7 @@ body {
         text-align: center;
     }
 
-    .nav-bar:not(:first-child) {
+    .nav-bar :nth-child(2) {
         display: none;
     }
 
