@@ -181,6 +181,7 @@ body {
 
     .main-body h1 {
         font-size: 40px;
+        text-align: center;
     }
 
     .main-body p {
@@ -211,9 +212,8 @@ body {
 
     .down-arrow {
         font-size: 50px;
-        padding-top: 1px;
-        padding-bottom: 20px;
-        margin-top: 1px;
+        padding-top: -15px;
+        padding-bottom: -15px;
     }
 
     #projects {
