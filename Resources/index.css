@@ -177,12 +177,7 @@ body {
 
 }
 
-.nav-bar a.active {
-    background-color: #4CAF50;
-    color: black;
-}
-
-.icon {
+.nav-bar .icon {
     display: none;
 }
 
@@ -249,7 +244,7 @@ body {
     }
 
     .nav-bar a:not(:first-child) {display: none;}
-    .icon {
+    .nav-bar a.icon {
       float: right;
       display: block;
     }
