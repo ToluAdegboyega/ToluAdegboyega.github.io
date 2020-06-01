@@ -212,9 +212,7 @@ body {
 
     .down-arrow {
         font-size: 30px;
-        padding-top: -20px;
-        padding-bottom: -20px;
-        display: inline;
+        display: inline-block;
         text-align: center;
     }
 
