@@ -192,7 +192,7 @@ body {
     }
 
     .social-media a {
-        
+        font-size: 20px;
     }
 
     .social-media ul {
@@ -211,10 +211,11 @@ body {
     }
 
     .down-arrow {
-        font-size: 50px;
-        padding-top: -15px;
-        padding-bottom: -15px;
+        font-size: 30px;
+        padding-top: -20px;
+        padding-bottom: -20px;
         display: inline;
+        text-align: center;
     }
 
     #projects {
