@@ -203,15 +203,15 @@ body {
         padding-left: 1px;
     }
 
-    .social-media .fab fa-twitter {
+    .fa-twitter {
         display: none;
     }
 
-    .social-media .fab fa-instagram {
+    .fa-instagram {
         display: none;
     }
 
-    .social-media .fas fa-envelope {
+    .fa-envelope {
         display: none;
     }
 
