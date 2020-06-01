@@ -210,12 +210,9 @@ body {
 
     .down-arrow {
         font-size: 30px;
-        display: inline-block;
-        text-align: center;
     }
 
     .down-arrow a {
-        text-align: center;
     }
 
     #projects {
