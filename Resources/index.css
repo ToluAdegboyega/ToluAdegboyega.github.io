@@ -255,7 +255,7 @@ body {
   
 
     .nav-bar.responsive {position: relative;}
-    .nav-bar.responsive a.icon {
+    .nav-bar.responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
