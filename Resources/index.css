@@ -195,9 +195,6 @@ body {
         font-size: 20px;
     }
 
-    .social-media ul {
-    }
-
     .fa-twitter {
         display: none;
     }
@@ -213,6 +210,10 @@ body {
     .down-arrow {
         font-size: 30px;
         display: inline-block;
+        text-align: center;
+    }
+
+    .down-arrow a {
         text-align: center;
     }
 
