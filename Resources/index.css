@@ -174,9 +174,9 @@ body {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .main-body {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .main-body h1 {
@@ -211,8 +211,10 @@ body {
 
     .down-arrow {
         font-size: 50px;
-        padding-top: 5px;
+        padding-top: 1px;
         padding-bottom: 20px;
+        margin-bottom: 5px;
+        margin-top: 1px;
     }
 
     #projects {
