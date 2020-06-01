@@ -91,13 +91,12 @@ body {
     justify-content: center;
     font-size: 60px;
     color: #b768a2;
+    height: 150px;
 }
 
 .down-arrow a {
     text-decoration: none;
     color: #b768a2;
-    display: inline-flex;
-    align-items: flex-end;
 }
 
 .main-body h1 {
