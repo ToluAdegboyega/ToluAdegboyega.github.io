@@ -95,7 +95,8 @@ body {
 
 .down-arrow a {
     text-decoration: none;
-    color: #b768a2
+    color: #b768a2;
+    align-items: flex-end;
 }
 
 .main-body h1 {
