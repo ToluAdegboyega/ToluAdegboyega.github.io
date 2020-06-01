@@ -96,6 +96,7 @@ body {
 .down-arrow a {
     text-decoration: none;
     color: #b768a2;
+    display: inline-flex;
     align-items: flex-end;
 }
 
