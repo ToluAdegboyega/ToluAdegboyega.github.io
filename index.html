@@ -13,6 +13,17 @@
     </head>
 
     <body>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("my-navbar");
+            if (x.className === "nav-bar") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-bar";
+            }
+            }
+        </script>
+
 
         <header class = "main-header">
             <nav class = "nav-bar" id="my-navbar" >
@@ -29,7 +40,9 @@
                     <li>
                         <a href = "#projects"> Projects </a>
                     </li>
-
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fas fa-bars"></i>
+                      </a>
                 </ul>
             </nav>
         </header>
