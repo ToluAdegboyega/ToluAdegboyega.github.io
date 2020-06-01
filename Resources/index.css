@@ -67,6 +67,7 @@ body {
     background-attachment: fixed; 
     background-size: cover;
     width: auto;
+    height: auto;
     margin-left: -8px;
     margin-right: -8px;  
     display: flex;
@@ -180,7 +181,7 @@ body {
 
 @media only screen and (max-width: 700px) {
     .main {
-
+        padding-top: 50px;
     }
 
     .main-body {
