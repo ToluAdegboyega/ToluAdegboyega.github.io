@@ -67,7 +67,7 @@ body {
     background-attachment: fixed; 
     background-size: cover;
     width: auto;
-    min-height: 970px;
+    min-height: 600px;
     margin-left: -8px;
     margin-right: -8px;  
     display: flex;
