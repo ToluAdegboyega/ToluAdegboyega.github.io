@@ -52,7 +52,7 @@ body {
     display: inline;
 }
 
-.home-page a {
+.home-page {
     font-weight: 600;
     float: left;
     margin-left: 30px;
