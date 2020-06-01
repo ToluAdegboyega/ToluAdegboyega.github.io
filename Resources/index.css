@@ -191,16 +191,10 @@ body {
     }
 
     .social-media a {
-        font-size: 10px;
-        padding-left: 1px;
-        padding-right: 1px;
-
+        
     }
 
     .social-media ul {
-        padding-top: 5px;
-        padding-right: 1px;
-        padding-left: 1px;
     }
 
     .fa-twitter {
