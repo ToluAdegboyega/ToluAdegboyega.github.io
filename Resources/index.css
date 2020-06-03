@@ -8,11 +8,8 @@ body {
 // #d32121 #000060
 
 
-.main-header {
-    color: whitesmoke;
-    left: 0;
-    right: 0;
-    top: 0;
+header {
+    background-color: whitesmoke;
 }
 
 .nav-bar {
