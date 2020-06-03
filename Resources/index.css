@@ -220,6 +220,7 @@ body {
 .style-conference-text h3 {
     color: black;
     font-size: 30px;
+    background-color: whitesmoke;
 
 }
 
@@ -233,6 +234,8 @@ body {
     padding-bottom: 5px;
     background-color: whitesmoke;
     color: black;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
