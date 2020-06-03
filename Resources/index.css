@@ -178,6 +178,11 @@ body {
 
 }
 
+.style-conference-img {
+    height: auto;
+    width: auto;
+}
+
 .nav-bar .icon {
     display: none;
 }
