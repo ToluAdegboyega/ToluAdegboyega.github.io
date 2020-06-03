@@ -122,8 +122,8 @@ body {
     list-style-type: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .social-media a {
@@ -207,6 +207,11 @@ body {
         font-size: 20px;
     }
 
+    .social-media ul {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .fa-twitter {
         display: none;
     }
@@ -261,6 +266,10 @@ body {
       float: none;
       display: block;
       text-align: left;
+      font-size: 15px;
+      font-weight: 500;
+      text-transform: uppercase;
+      border-bottom-style: solid;
     }
     
 
