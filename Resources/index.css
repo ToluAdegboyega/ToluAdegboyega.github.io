@@ -213,6 +213,7 @@ body {
     padding: 15px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .style-conference-text h3 {
