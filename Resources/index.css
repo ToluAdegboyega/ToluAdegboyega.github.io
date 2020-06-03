@@ -193,7 +193,6 @@ body {
 }
 
 .style-conference {
-    background-color: rgba(238, 66, 102, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,6 +203,7 @@ body {
     padding-left: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-bottom: 2px solid rgba(238, 66, 102, 0.5);
 }
 
 .style-conference-img img {
