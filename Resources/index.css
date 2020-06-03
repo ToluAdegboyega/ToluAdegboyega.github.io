@@ -174,7 +174,10 @@ body {
     text-align: center;
     width: 75%;
     max-width: 1200px;
+}
 
+#projects h2 {
+    font-size: 50px;
 }
 
 .style-conference {
