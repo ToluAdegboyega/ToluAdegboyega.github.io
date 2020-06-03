@@ -168,30 +168,67 @@ body {
     padding-top: 100px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 75%;
-    max-width: 1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 
 #projects h2 {
     font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.main-project {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .style-conference {
     background-color: rgba(238, 66, 102, 0.5);
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .style-conference-img img {
-    height: auto;
     width: 250px;
+    margin-right: 5px;
 
 }
+
+.style-conference-text {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60%;
+}
+
+.style-conference-text h3 {
+    text-transform: uppercase;
+
+}
+
+.style-conference-text li {
+    list-style-type: none;
+    border: 1px solid grey;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
 
 .nav-bar .icon {
     display: none;
