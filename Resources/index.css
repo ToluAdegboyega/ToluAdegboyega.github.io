@@ -198,12 +198,10 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-    
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 30px;
     padding-left: 30px;
-    height: 450px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
