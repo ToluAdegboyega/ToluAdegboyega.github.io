@@ -195,11 +195,13 @@ body {
 .style-conference {
     background-color: rgba(238, 66, 102, 0.5);
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
     height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .style-conference-img img {
