@@ -205,8 +205,6 @@ body {
 }
 
 .style-conference-img img {
-    width: 250px;
-    height: 395px;
     margin-right: 5px;
 
 }
@@ -214,7 +212,7 @@ body {
 .style-conference-text {
     padding-left: 5px;
     padding-right: 5px;
-    width: 60%;
+    width: 50%;
 }
 
 .style-conference-text h3 {
