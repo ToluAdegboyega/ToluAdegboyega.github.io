@@ -218,7 +218,8 @@ body {
 }
 
 .style-conference-text h3 {
-    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
 
 }
 
