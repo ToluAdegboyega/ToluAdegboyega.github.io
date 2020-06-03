@@ -177,12 +177,14 @@ body {
 }
 
 #projects h2 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .style-conference {
     background-color: rgba(238, 66, 102, 0.5);
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .style-conference-img img {
