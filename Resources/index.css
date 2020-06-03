@@ -195,6 +195,7 @@ body {
 .style-conference {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 30px;
@@ -211,9 +212,6 @@ body {
 
 .style-conference-text {
     padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
 }
 
 .style-conference-text h3 {
