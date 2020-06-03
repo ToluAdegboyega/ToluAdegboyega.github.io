@@ -197,6 +197,7 @@ body {
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 500px;
 }
 
 .style-conference-img img {
