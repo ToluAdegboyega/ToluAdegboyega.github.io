@@ -196,7 +196,7 @@ body {
     background-color: rgba(238, 66, 102, 0.5);
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     align-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
