@@ -216,11 +216,8 @@ body {
 }
 
 .style-conference-text h3 {
-    color: black;
+    color: #66023c;
     font-size: 30px;
-    background-color: whitesmoke;
-
-
 }
 
 .style-conference-text li {
