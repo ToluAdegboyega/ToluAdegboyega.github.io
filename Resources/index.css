@@ -176,7 +176,6 @@ body {
     margin-right: 20px;
     padding-left: 200px;
     padding-right: 200px;
-    text-align: start;
 }
 
 #projects h2 {
@@ -184,6 +183,7 @@ body {
     margin-top: 16px;
     margin-bottom: 16px;
     color: #66023c;
+    text-align: left !important;
 }
 
 .main-project {
