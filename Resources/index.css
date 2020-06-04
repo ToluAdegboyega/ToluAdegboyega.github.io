@@ -895,41 +895,57 @@ body {
         font-size: 20px;
         color: #66023c;
         text-align: center;
+        margin-left: 0px;
+        padding-left: 0px;
     }
 
     .main-project {
         padding-left: 0px;
         padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .style-conference {
         display: flex;
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .tribute {
         display: flex;
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .survey-form {
         display: flex;
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .product-landing {
         display: flex;
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .tech-page {
         display: flex;
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .port-page {
         display: flex;
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .style-conference-img img {
