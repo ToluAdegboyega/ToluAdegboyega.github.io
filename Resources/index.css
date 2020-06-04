@@ -775,6 +775,14 @@ body {
     justify-content: space-between;
 }
 
+.copy-right {
+    padding-left: 5px;
+}
+
+.nav-links {
+    padding-right: 5px;
+}
+
 .nav-links a {
     color: #b768a2;
     text-decoration: none;
