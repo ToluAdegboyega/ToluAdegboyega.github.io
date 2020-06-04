@@ -864,7 +864,6 @@ body {
       position: fixed;
       right: 0;
       top: 0;
-      overflow: hidden;
       text-align: right;
     }
     .nav-bar.responsive a {
