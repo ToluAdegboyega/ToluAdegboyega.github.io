@@ -761,6 +761,45 @@ body {
 
 }
 
+.nav-foot {
+    list-style-type: none;
+    text-align: right;
+    background-color: whitesmoke;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.nav-foot ul {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.nav-foot a {
+    color: #b768a2;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-right: 30px;
+    -webkit-transition:opacity .5s ease-out;
+  -moz-transition:opacity .5s ease-out;
+  -ms-transition:opacity .5s ease-out;
+  -o-transition:opacity .5s ease-out;
+  transition:opacity .5s ease-out;
+}
+
+.nav-foot li{
+    display: inline;
+}
+
 @media only screen and (max-width: 700px) {
     .main {
         padding-top: 20px;
