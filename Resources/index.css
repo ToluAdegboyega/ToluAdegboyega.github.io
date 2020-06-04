@@ -865,6 +865,7 @@ body {
       right: 0;
       top: 0;
       text-align: right;
+      display: block;
     }
     .nav-bar.responsive a {
       float: none;
@@ -872,7 +873,6 @@ body {
       text-align: right;
       
     }
-
     .nav-bar.responsive .home-page {
         display: none;
     }
