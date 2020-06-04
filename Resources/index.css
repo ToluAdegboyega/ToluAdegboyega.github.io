@@ -183,7 +183,8 @@ body {
     margin-top: 16px;
     margin-bottom: 16px;
     color: #66023c;
-    text-align: left !important;
+    display: inline-block;
+    text-align: left;
 }
 
 .main-project {
