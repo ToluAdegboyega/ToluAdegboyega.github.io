@@ -863,7 +863,7 @@ body {
     .nav-bar.responsive .icon {
       position: fixed;
       right: 0;
-      top: 0;
+      top: 2px;
       text-align: right;
       display: block;
     }
