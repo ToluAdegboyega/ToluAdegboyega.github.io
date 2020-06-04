@@ -871,6 +871,7 @@ body {
       display: block;
     }
     .nav-bar.responsive a {
+        padding-top: 5px;
       float: none;
       display: block;
       text-align: right;
