@@ -858,9 +858,10 @@ body {
     }
   
 
-    .nav-bar.responsive {position: sticky;}
+    .nav-bar.responsive {position: fixed;}
+
     .nav-bar.responsive .icon {
-      position: sticky;
+      position: fixed;
       right: 0;
       top: 0;
       overflow: hidden;
@@ -872,6 +873,11 @@ body {
       text-align: right;
       
     }
+
+    .nav-bar.responsive .home-page {
+        display: none;
+    }
+
 
     .nav-links a {
         display: none;
