@@ -871,7 +871,7 @@ body {
       padding-bottom: 20px;
     }
     .nav-bar.responsive a {
-        padding-top: 5px;
+        padding-top: 20px;
       float: none;
       display: block;
       text-align: right;
@@ -881,9 +881,6 @@ body {
         display: none;
     }
 
-    .nav-bar.responsive a.fa-bars {
-        padding-bottom: 20px;
-    }
 
 
     .nav-links a {
