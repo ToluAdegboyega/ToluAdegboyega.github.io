@@ -901,43 +901,43 @@ body {
     .style-conference {
         display: flex;
         flex-direction: column;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
     }
 
     .tribute {
         display: flex;
         flex-direction: column;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
     }
 
     .survey-form {
         display: flex;
         flex-direction: column;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
     }
 
     .product-landing {
         display: flex;
         flex-direction: column;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
     }
 
     .tech-page {
         display: flex;
         flex-direction: column;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
     }
 
     .port-page {
         display: flex;
         flex-direction: column;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
     }
 
     .style-conference-img img {
