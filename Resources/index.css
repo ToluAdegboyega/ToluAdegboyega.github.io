@@ -843,10 +843,6 @@ body {
         justify-content: center;
     }
 
-    .down-arrow a {
-    }
-
-
     .nav-bar a:not(:first-child) {
         display: none;
         font-size: 20px;
@@ -864,9 +860,10 @@ body {
 
     .nav-bar.responsive {position: relative;}
     .nav-bar.responsive .icon {
-      position: absolute;
+      position: relative;
       right: 0;
       top: 0;
+      overflow: hidden;
     }
     .nav-bar.responsive a {
       float: none;
