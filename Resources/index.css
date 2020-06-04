@@ -765,7 +765,7 @@ body {
     background-color: whitesmoke;
     margin-left: -8px;
     margin-right: -8px;
-    margin-bottom: -8px;
+    margin-bottom: -10px;
 }
 
 .nav-foot {
@@ -973,31 +973,43 @@ body {
     .style-conference-text {
         margin-right: 1px;
         margin-left: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
     }
 
     .tribute-text {
         margin-right: 1px;
         margin-left: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
     }
 
     .survey-form-text {
         margin-right: 1px;
         margin-left: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
     }
 
     .product-landing-text {
         margin-right: 1px;
         margin-left: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
     }
 
     .tech-page-text {
         margin-right: 1px;
         margin-left: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
     }
 
     .port-page-text {
         margin-right: 1px;
         margin-left: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
     }
 
 
