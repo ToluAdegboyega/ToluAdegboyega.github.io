@@ -281,7 +281,6 @@ body {
     margin-right: 20px;
 }
 
-
 .tribute {
     display: flex;
     align-items: center;
@@ -371,6 +370,100 @@ body {
     border: 2px solid rgba(56, 210, 213, 0.5);
     margin-right: 20px;
 }
+
+
+.survey-form {
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(246, 255, 75, 0.65);
+}
+
+.survey-img img {
+    margin-right: 30px;
+
+}
+
+.survey-form-text h3 {
+    color: rgba(192, 201, 33, 0.65);
+    font-size: 30px;
+}
+
+.survey-form-text p {
+    font-size: 20px;
+    color: black;
+
+}
+.survey-form-button-a {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f2f4;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.survey-form-text a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.survey-form-button-b {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f2f4;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.survey-form-text a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.survey-form-button-a:hover,
+.survey-form-button-a:focus {
+  background: rgba(246, 255, 75, 0.65);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.survey-form-button-b:hover,
+.survey-form-button-b:focus {
+  background: rgba(246, 255, 75, 0.65);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.survey-form-text li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: black;
+    border: 2px solid rgba(246, 255, 75, 0.65);
+    margin-right: 20px;
+}
+
+
 
 
 
