@@ -183,6 +183,7 @@ body {
     margin-top: 16px;
     margin-bottom: 16px;
     color: #66023c;
+    text-align: left;
 }
 
 .main-project {
@@ -193,7 +194,6 @@ body {
 .style-conference {
     display: flex;
     align-items: center;
-    padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 30px;
     padding-left: 30px;
