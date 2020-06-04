@@ -904,6 +904,11 @@ body {
         padding-right: 0px;
     }
 
+    .style-conference {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
 
