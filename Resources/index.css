@@ -227,6 +227,8 @@ body {
     font-size: 15px;
     margin-right: 5px;
     margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .style-conference-text a {
     text-decoration: none;
@@ -243,11 +245,20 @@ body {
     font-size: 15px;
     margin-right: 5px;
     margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .style-conference-text a {
     text-decoration: none;
     color: black;
     
+}
+
+.style-conference-button-a:hover,
+.style-conference-button-a:focus {
+  background: rgba(211, 17, 59, 0.5);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
 }
 
 .style-conference-text li {
