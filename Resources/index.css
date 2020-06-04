@@ -862,7 +862,7 @@ body {
         position: fixed;
     }
 
-    .nav-bar.responsive .icon {
+    .nav-bar.responsive a.icon {
       position: fixed;
       right: 0;
       top: 0;
