@@ -909,6 +909,31 @@ body {
         flex-direction: column;
     }
 
+    .tribute {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .survey-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-landing {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tech-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .port-page {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
 
