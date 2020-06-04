@@ -934,6 +934,39 @@ body {
         flex-direction: column;
     }
 
+    .style-conference-img img {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
+    .tribute-img img {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
+    .survey-img img {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
+    .product-landing-img img {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
+    .tech-page-img img {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
+    .port-page-img img {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
+
+
+
 
 }
 
