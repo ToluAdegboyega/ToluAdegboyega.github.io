@@ -166,6 +166,18 @@ body {
 
 #projects {
     padding-top: 120px;
+    
+}
+
+#projects h2 {
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #66023c;
+    text-align: left;
+}
+
+.main-project {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,18 +188,6 @@ body {
     margin-right: 20px;
     padding-left: 200px;
     padding-right: 200px;
-}
-
-#projects h2 {
-    font-size: 30px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    color: #66023c;
-}
-
-.main-project {
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .style-conference {
