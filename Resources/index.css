@@ -8,6 +8,10 @@ body {
 // #d32121 #000060
 
 
+.main-header {
+    background-color: whitesmoke;
+}
+
 .nav-bar {
     list-style-type: none;
     text-align: right;
@@ -854,13 +858,13 @@ body {
     }
   
 
-    .nav-bar.responsive {position: relative;}
+    .nav-bar.responsive {position: sticky;}
     .nav-bar.responsive .icon {
-      position: relative;
+      position: sticky;
       right: 0;
       top: 0;
       overflow: hidden;
-      text-align-last: right;
+      text-align: right;
     }
     .nav-bar.responsive a {
       float: none;
