@@ -226,6 +226,10 @@ body {
     border: none;
     border-radius: 5px;
     background: #f1f2f4;
+    color: black;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .style-conference-text li {
