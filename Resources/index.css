@@ -899,6 +899,11 @@ body {
         text-align: center;
     }
 
+    .main-project {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
 
 }
 
