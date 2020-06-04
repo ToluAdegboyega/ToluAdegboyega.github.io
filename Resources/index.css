@@ -182,6 +182,7 @@ body {
     font-size: 30px;
     margin-top: 16px;
     margin-bottom: 16px;
+    color: #66023c;
 }
 
 .main-project {
@@ -207,12 +208,13 @@ body {
 }
 
 .style-conference-text h3 {
-    color: rgba(238, 66, 102, 0.5);
+    color: rgba(211, 17, 59, 0.5);
     font-size: 30px;
 }
 
 .style-conference-text p {
     font-size: 20px;
+    color: black;
 
 }
 
