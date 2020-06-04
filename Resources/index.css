@@ -859,7 +859,6 @@ body {
   
 
     .nav-bar.responsive {
-        padding-top: 5px;
         position: fixed;
     }
 
@@ -869,6 +868,7 @@ body {
       top: 0;
       text-align: right;
       display: block;
+      padding-bottom: 10px;
     }
     .nav-bar.responsive a {
         padding-top: 5px;
