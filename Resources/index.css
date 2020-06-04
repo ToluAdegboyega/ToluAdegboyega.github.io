@@ -555,7 +555,96 @@ body {
     margin-right: 20px;
 }
 
+.tech-page {
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(75, 255, 84, 0.65);
+}
 
+.tech-page-img img {
+    margin-right: 30px;
+
+}
+
+.tech-page-text h3 {
+    color: rgba(75, 255, 84, 0.65);
+    font-size: 30px;
+}
+
+.tech-page-text p {
+    font-size: 20px;
+    color: black;
+
+}
+.tech-page-button-a {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f2f4;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.tech-page-text a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.tech-page-button-b {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f2f4;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.tech-page-text a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.tech-page-button-a:hover,
+.tech-page-button-a:focus {
+  background: rgba(75, 255, 84, 0.65);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.tech-page-button-b:hover,
+.tech-page-button-b:focus {
+  background: rgba(75, 255, 84, 0.65);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.tech-page-text li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: black;
+    border: 2px solid rgba(75, 255, 84, 0.65);
+    margin-right: 20px;
+}
 
 
 
