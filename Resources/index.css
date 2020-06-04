@@ -761,7 +761,12 @@ body {
 
 }
 
+.footer {
+    background-color: whitesmoke;
+}
+
 .nav-foot {
+    background-color: whitesmoke;
     padding: 2em 7.5em;
     display: flex;
     justify-content: space-between;
@@ -772,11 +777,10 @@ body {
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 10px;
+    font-size: 20px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-    margin-right: 30px;
 }
 
 
