@@ -869,7 +869,6 @@ body {
       text-align: right;
       display: inline-block;
       padding-bottom: 20px;
-      margin-bottom: 20px;
     }
     .nav-bar.responsive a {
         padding-top: 5px;
@@ -880,6 +879,10 @@ body {
     }
     .nav-bar.responsive .home-page {
         display: none;
+    }
+
+    .nav-bar.responsive a.fa-bar {
+        padding-bottom: 20px;
     }
 
 
