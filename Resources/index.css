@@ -891,6 +891,13 @@ body {
         display: none;
     }
     
+    #projects h2 {
+        font-size: 20px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        color: #66023c;
+        text-align: center;
+    }
 
 
 }
