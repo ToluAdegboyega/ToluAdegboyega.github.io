@@ -765,9 +765,6 @@ body {
     list-style-type: none;
     text-align: right;
     background-color: whitesmoke;
-    top: 0;
-    left: 0;
-    width: 100%;
     padding-top: 10px;
 }
 
@@ -784,7 +781,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 25px;
+    font-size: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
