@@ -747,7 +747,7 @@ body {
     background-attachment: fixed; 
     background-size: cover;
     width: auto;
-    min-height: 650px;
+    min-height: 100vh;
     margin-left: -8px;
     margin-right: -8px;  
     display: flex;
