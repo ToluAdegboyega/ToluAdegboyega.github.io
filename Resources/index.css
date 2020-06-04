@@ -867,7 +867,7 @@ body {
       right: 0;
       top: 0;
       text-align: right;
-      display: block;
+      display: inline-block;
       padding-bottom: 20px;
       margin-bottom: 20px;
     }
