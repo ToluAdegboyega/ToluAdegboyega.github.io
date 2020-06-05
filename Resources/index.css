@@ -992,8 +992,8 @@ body {
     .style-conference-text {
         margin-right: 1px;
         margin-left: 1px;
-        padding-right: 1px;
-        padding-left: 1px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     .tribute-text {
