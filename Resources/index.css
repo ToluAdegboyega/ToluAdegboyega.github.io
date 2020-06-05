@@ -886,10 +886,16 @@ body {
         content: "\f00d";
     }
 
-
-
     .nav-links a {
         display: none;
+    }
+
+    .some-quote p {
+        font-size: 400;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
     }
 
     #projects {
