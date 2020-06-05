@@ -72,8 +72,9 @@ body {
     background-color: whitesmoke;
     margin-left: -8px;
     margin-right: -8px;
-    bottom: -20px;
-    position: relative;
+    bottom: 0px;
+    position: absolute;
+    height: 40px;
 }
 
 .nav-foot {
