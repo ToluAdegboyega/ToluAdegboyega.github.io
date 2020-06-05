@@ -74,6 +74,7 @@ body {
     margin-right: -8px;
     bottom: -100px;
     position: relative;
+    height: 50px;
 }
 
 .nav-foot {
