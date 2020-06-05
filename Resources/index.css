@@ -1031,6 +1031,26 @@ body {
         padding-left: 1px;
     }
 
+    .style-conference-text h3{
+        font-size: 20px;
+    }
+    
+    .style-conference-text p {
+        font-size: 10px;
+    }
+    
+    .style-conference-button-a {
+        font-size: 10px;
+    }
+    
+    .style-conference-button-b {
+        font-size: 10px;
+    }
+    
+    .style-conference-text li {
+        font-size: 10px;
+    }
+
 
 
 

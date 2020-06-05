@@ -1,26 +1,19 @@
-@media only screen and (max-width: 600px) {
-    .main {
-      min-height: 100vh;
-      display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0px auto;
-    }
+.style-conference-text h3{
+    font-size: 20px;
+}
 
-    .main-body h1 {
-        font-size: 40px;
-    }
+.style-conference-text p {
+    font-size: 10px;
+}
 
-    .main-body p {
-        font-size: 20px;
-    }
+.style-conference-button-a {
+    font-size: 10px;
+}
 
-    .social-media a {
-        font-size: 20px;
-    }
+.style-conference-button-b {
+    font-size: 10px;
+}
 
-    .down-arrow {
-        font-size: 30px;
-    }
-  }
+.style-conference-text li {
+    font-size: 10px;
+}
