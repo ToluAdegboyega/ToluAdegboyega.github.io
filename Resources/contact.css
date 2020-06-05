@@ -106,7 +106,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    text-align: center;
 
 }
 
@@ -125,7 +129,7 @@ body {
 .fa-envelope {
     text-decoration: none;
     color: #66023c;
-    font-size: 80px;
+    font-size: 100px;
 }
 
 
