@@ -878,7 +878,7 @@ body {
     }
 
     .nav-bar.nav-bar.responsive a.icon :before {
-        content: "fas fa-times";
+        content: "\f00d";
     }
 
 
