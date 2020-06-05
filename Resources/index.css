@@ -755,11 +755,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 800;
-    font-size: 40px;
-    padding: 5px;
-
 }
+
+.some-quote p {
+    font-size: 400;
+    font-size: 30px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
 
 .footer {
     background-color: whitesmoke;
