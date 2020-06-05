@@ -770,7 +770,6 @@ body {
     background-color: whitesmoke;
     margin-left: -8px;
     margin-right: -8px;
-    margin-bottom: -20px;
 }
 
 .nav-foot {
@@ -892,10 +891,14 @@ body {
 
     .some-quote p {
         font-size: 400;
-        font-size: 15px;
+        font-size: 20px;
         padding: 5px;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
+    }
+
+    .footer {
+        margin-bottom: -8px;
     }
 
     #projects {
@@ -903,11 +906,12 @@ body {
     }
     
     #projects h2 {
-        font-size: 20px;
+        font-size: 30px;
         color: #66023c;
         text-align: center;
         margin-left: 0px;
         padding-left: 0px;
+        padding-bottom: 20px;
     }
 
     .main-project {
@@ -999,36 +1003,36 @@ body {
     .tribute-text {
         margin-right: 1px;
         margin-left: 1px;
-        padding-right: 1px;
-        padding-left: 1px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .survey-form-text {
         margin-right: 1px;
         margin-left: 1px;
-        padding-right: 1px;
-        padding-left: 1px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .product-landing-text {
         margin-right: 1px;
         margin-left: 1px;
-        padding-right: 1px;
-        padding-left: 1px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .tech-page-text {
         margin-right: 1px;
         margin-left: 1px;
-        padding-right: 1px;
-        padding-left: 1px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .port-page-text {
         margin-right: 1px;
         margin-left: 1px;
-        padding-right: 1px;
-        padding-left: 1px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .style-conference-text h3{
@@ -1036,7 +1040,7 @@ body {
     }
     
     .style-conference-text p {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .style-conference-button-a {
@@ -1050,6 +1054,107 @@ body {
     .style-conference-text li {
         font-size: 15px;
     }
+
+    .tribute-text h3{
+        font-size: 20px;
+    }
+    
+    .tribute-text p {
+        font-size: 18px;
+    }
+    
+    .tribute-button-a {
+        font-size: 15px;
+    }
+    
+    .tribute-button-b {
+        font-size: 15px;
+    }
+    
+    .tribute-text li {
+        font-size: 15px;
+    }
+
+    .survey-form-text h3{
+        font-size: 20px;
+    }
+    
+    .survey-form-text p {
+        font-size: 18px;
+    }
+    
+    .survey-form-button-a {
+        font-size: 15px;
+    }
+    
+    .survey-form-button-b {
+        font-size: 15px;
+    }
+    
+    .survey-form-text li {
+        font-size: 15px;
+    }
+
+    .product-landing-text h3{
+        font-size: 20px;
+    }
+    
+    .product-landing-text p {
+        font-size: 18px;
+    }
+    
+    .product-button-a {
+        font-size: 15px;
+    }
+    
+    .product-button-b {
+        font-size: 15px;
+    }
+    
+    .product-landing-text li {
+        font-size: 15px;
+    }
+
+    .tech-page-text h3{
+        font-size: 20px;
+    }
+    
+    .tech-page-text p {
+        font-size: 18px;
+    }
+    
+    .tech-page-button-a {
+        font-size: 15px;
+    }
+    
+    .tech-page-button-b {
+        font-size: 15px;
+    }
+    
+    .tech-page-text li {
+        font-size: 15px;
+    }
+
+    .port-page-text h3{
+        font-size: 20px;
+    }
+    
+    .port-page-text p {
+        font-size: 18px;
+    }
+    
+    .port-page-button-a {
+        font-size: 15px;
+    }
+    
+    .port-page-button-b {
+        font-size: 15px;
+    }
+    
+    .port-page-text li {
+        font-size: 15px;
+    }
+    
 
 
 
