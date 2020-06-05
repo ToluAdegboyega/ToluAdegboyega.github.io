@@ -105,7 +105,7 @@ body {
 }
 
 
-.main-contact {
+.contact .main-contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +120,7 @@ body {
     font-weight: 400;
 }
 
-.main-contact p {
+.main-contact h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 400;
