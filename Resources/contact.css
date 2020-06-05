@@ -73,8 +73,7 @@ body {
     margin-left: -8px;
     margin-right: -8px;
     bottom: 0px;
-    height: 100px;
-    position: absolute;
+    position: relative;
 }
 
 .nav-foot {
@@ -113,7 +112,6 @@ body {
     padding-right: 100px;
     padding-bottom: 100px;
     text-align: center;
-    min-height: 100vh;
 
 }
 
