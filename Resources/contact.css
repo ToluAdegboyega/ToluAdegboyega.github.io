@@ -122,14 +122,10 @@ body {
     font-weight: 400;
 }
 
-.main-contact h2 {
+.contact .main-contact h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 400;
-    padding-left: 0px;
-    padding-right: 0px;
-    display: inline;
-    text-align: center;
 }
 
 .fa-envelope {
