@@ -894,13 +894,6 @@ body {
         display: none;
     }
 
-    .some-quote p {
-        font-size: 400;
-        font-size: 20px;
-        padding: 5px;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-    }
 
     .footer {
         margin-bottom: -8px;
@@ -1160,6 +1153,29 @@ body {
         font-size: 15px;
     }
 
+    .main-contact {
+        padding-top: 115px;
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-bottom: 125px;
+    }
+    
+    .main-contact h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    
+    .main-contact h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .fa-envelope { 
+        text-decoration: none;
+        color: #66023c;
+        font-size: 50px;
 
 
 
