@@ -755,9 +755,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Dancing Script', cursive, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 50px;
-    font-weight: 800;
+    font-size: 800;
+    font-size: 40px;
+    padding: 5px;
 
 }
 
