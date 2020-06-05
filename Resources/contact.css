@@ -149,7 +149,8 @@ body {
     }
 
     .footer {
-        margin-bottom: -8px;
+        bottom: 0;
+        position: absolute;
     }
 
 
