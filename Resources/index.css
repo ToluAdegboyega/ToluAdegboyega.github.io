@@ -741,27 +741,31 @@ body {
     display: none;
 }
 
-.some-quote {
-    background: url(../Resources/imageedit_8_8751482520.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: cover;
-    width: auto;
-    min-height: 650px;
-    margin-left: -8px;
-    margin-right: -8px;  
+.main-contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 130px;
 }
 
-.some-quote p {
-    font-size: 400;
-    font-size: 30px;
-    padding: 5px;
+.main-contact h1 {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.main-contact h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fa-envelope { 
+    text-decoration: none;
+    color: #66023c;
+    font-size: 100px;
 }
 
 

@@ -105,32 +105,7 @@ body {
 }
 
 
-.contact .main-contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 130px;
-}
 
-.main-contact h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.main-contact h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.fa-envelope { 
-    text-decoration: none;
-    color: #66023c;
-    font-size: 100px;
-}
 
 
 
