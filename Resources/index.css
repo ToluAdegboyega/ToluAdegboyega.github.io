@@ -1036,7 +1036,8 @@ body {
     }
     
     .style-conference-text p {
-        font-size: 10px;
+        font-size: 20px;
+        line-height: 1px;
     }
     
     .style-conference-button-a {
