@@ -122,13 +122,13 @@ body {
     font-weight: 400;
 }
 
-.contact .main-contact h2 {
+.main-contact p {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 400;
 }
 
-.fa-envelope {
+.fa-envelope { 
     text-decoration: none;
     color: #66023c;
     font-size: 100px;
