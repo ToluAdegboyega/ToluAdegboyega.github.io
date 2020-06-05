@@ -756,7 +756,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Dancing Script', cursive, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 100px;
+    font-size: 50px;
     font-weight: 800;
 
 }
@@ -765,7 +765,7 @@ body {
     background-color: whitesmoke;
     margin-left: -8px;
     margin-right: -8px;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
 }
 
 .nav-foot {
