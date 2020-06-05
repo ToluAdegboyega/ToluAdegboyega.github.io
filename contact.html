@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/0ca43f027b.js" crossorigin="anonymous"></script>
         <title>
             Contact | Tolu Adegboyega: Front-end Developer.
         </title>
@@ -8,30 +10,36 @@
           type="image/jpg" sizes="64x64">
         <link rel="stylesheet"
            href="Resources\contact.css" type="text/css">
-           <script src="Resources\contact.js" type="text/javascript"> </script>
-        
+           <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     </head>
+
     <body>
-        <header class="contact-header">
-            <nav id = "nav-bar">
-                <div class = "table">
-                    <ul>
-                        <li>
-                            <a href = "https://toluadegboyega.github.io/"> Home </a>
-                        </li>
-                        <li>
-                            <a href = "about.html"> About Me </a>
-                        </li>
-                        <li>
-                            <a href = "contact.html"> Contact </a>
-                        </li>
-                        <li>
-                            <a href = "https://toluadegboyega.github.io/#projects"> Projects </a>
-                        </li>
-                    </ul>
-                </div>
+
+        <script>
+            function myFunction() {
+            var x = document.getElementById("my-navbar");
+            if (x.className === "nav-bar") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-bar";
+            }
+            }
+        </script>
+
+        <header class = "main-header">  
+            <nav class = "nav-bar" id="my-navbar" >
+                <a class="home-page" href = "https://toluadegboyega.github.io/"> Tolu. </a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fas fa-bars"> </i>
+                </a>
+                <a href = "about.html"> About Me </a>
+                <a href = "contact.html"> Contact </a>
+                <a href = "#projects"> Projects </a>   
             </nav>
         </header>
+
         <section class = "contact">
             <h1>
                 Contact
@@ -45,5 +53,23 @@
                 <a href="mailto:tolzygboyega19@gmail.com" target="_blank"> tolzygboyega19@gmail.com </a>
             </p>
         </section>
+
+        <footer class = "footer">
+        <nav class = "nav-foot">
+            <div class = "copy-right">
+            <p>
+                © Tolu Adegboyega 2020
+            </p>
+            </div>
+            <div class = "nav-links">
+                    <a href = "https://twitter.com/t0lzz" target = "_blank" > Twitter </a>
+                    <a href = "https://www.linkedin.com/in/toluwalaseadegboyega/"
+                    target = "_blank"> LinkedIn </a>
+                    <a href = "https://github.com/ToluAdegboyega" target = "_blank"> GitHub </a>
+                    <a href = "mailto:tolzygboyega19@gmail.com" target = "_blank"> Mail </a>
+            </div>
+        </nav>
+    </footer>
+
     </body>
 </html>
