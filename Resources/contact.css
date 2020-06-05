@@ -182,36 +182,7 @@ body {
         display: none;
     }
 
-    .main-contact {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 100px;
-        padding-left: 100px;
-        padding-right: 100px;
-        text-align: center;
     
-    
-    }
-    
-    .main-contact h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-    }
-    
-    .main-contact h2 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-    }
-    
-    .fa-envelope {
-        text-decoration: none;
-        color: #66023c;
-        font-size: 50px;
-    }
     
 
 
