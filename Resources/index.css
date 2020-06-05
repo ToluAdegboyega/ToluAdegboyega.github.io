@@ -877,6 +877,10 @@ body {
         display: none;
     }
 
+    .nav-bar.nav-bar.responsive a.icon :before {
+        content: "fas fa-times";
+    }
+
 
 
     .nav-links a {
