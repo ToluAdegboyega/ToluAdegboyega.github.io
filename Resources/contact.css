@@ -182,8 +182,22 @@ body {
         display: none;
     }
 
-    .footer {
-        
+    .main-contact h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .main-contact h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .fa-envelope {
+        text-decoration: none;
+        color: #66023c;
+        font-size: 50px;
     }
 
 
