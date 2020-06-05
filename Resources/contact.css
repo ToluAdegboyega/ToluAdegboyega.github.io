@@ -106,8 +106,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 150px;
 
+}
+
+.main-contact h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
 }
 
 .fa-envelope {
