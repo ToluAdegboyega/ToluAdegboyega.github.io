@@ -104,9 +104,6 @@ body {
     padding-left: 10px;
 }
 
-.contact {
-    min-height: 100vh;
-}
 
 .main-contact {
     display: flex;
