@@ -106,9 +106,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 
 }
 
+.fa-envelope {
+    text-decoration: none;
+    color: #66023c;
+    font-size: 50px;
+}
 
 
 
