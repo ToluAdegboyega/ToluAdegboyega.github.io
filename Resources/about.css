@@ -214,6 +214,8 @@ body {
     padding: 25px;
     text-align: center;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main-skills i {
