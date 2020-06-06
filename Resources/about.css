@@ -143,12 +143,18 @@ body {
     padding-bottom: 80px;
     padding-right: 30px;
     padding-left: 30px;
+    padding-top: 80px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1px;
+    text-align: center;
 }
 
 .about-img img {
     margin-right: 30px;
+    border: 50px;
+    display: flex;
 }
 
 
