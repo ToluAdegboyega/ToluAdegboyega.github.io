@@ -179,7 +179,6 @@ body {
 .about-img img {
     margin-right: 30px;
     border-radius: 50%;
-    display: flex;
 }
 
 
@@ -239,6 +238,13 @@ body {
         padding: 5px;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
+    }
+    
+    .main-about {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1px;
+        padding-right: 1px;
     }
 
 
