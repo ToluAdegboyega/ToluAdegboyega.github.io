@@ -135,6 +135,7 @@ body {
     margin-right: 20px;
     padding-left: 200px;
     padding-right: 200px;
+    padding-top: 100px;
 }
 
 .main-about-text {
@@ -245,7 +246,7 @@ body {
         flex-direction: column;
         padding-left: 1px;
         padding-right: 1px;
-        padding-top: 30px;
+        padding-top: 60px;
     }
 
     .main-about-text {
