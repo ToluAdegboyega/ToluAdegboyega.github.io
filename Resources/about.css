@@ -220,47 +220,13 @@ body {
     justify-content: space-between;
 }
 
-.html-img img {
+.main-skills i {
     color: white;
   font-size: 7rem;
   margin-bottom: 25px;
 }
 
-.css-img img {
-    color: white;
-  font-size: 7rem;
-  margin-bottom: 25px;
-}
 
-.js-img img {
-    color: white;
-  font-size: 7rem;
-  margin-bottom: 25px;
-}
-
-.git-img img {
-    color: white;
-  font-size: 7rem;
-  margin-bottom: 25px;
-}
-
-.github-img img {
-    color: white;
-  font-size: 7rem;
-  margin-bottom: 25px;
-}
-
-.vs-img img {
-    color: white;
-  font-size: 7rem;
-  margin-bottom: 25px;
-}
-
-.rd-img img {
-    color: white;
-  font-size: 7rem;
-  margin-bottom: 25px;
-}
 
 
 
