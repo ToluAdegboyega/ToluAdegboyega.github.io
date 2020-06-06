@@ -205,6 +205,7 @@ body {
     color: white;
     text-transform: uppercase;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
