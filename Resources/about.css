@@ -205,8 +205,11 @@ body {
     color: white;
     text-transform: uppercase;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+}
+
+.main-skills ul {
+    flex-direction: row;
 }
 
 .main-skills li {
