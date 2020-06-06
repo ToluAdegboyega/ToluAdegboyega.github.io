@@ -197,12 +197,69 @@ body {
 }
 
 .main-skills {
-
+    background-color: #66023c;
+    padding: 80px 60px;
+    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-skills li {
     list-style-type: none;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.html-img img {
+    color: white;
+  font-size: 7rem;
+  margin-bottom: 25px;
+}
+
+.css-img img {
+    color: white;
+  font-size: 7rem;
+  margin-bottom: 25px;
+}
+
+.js-img img {
+    color: white;
+  font-size: 7rem;
+  margin-bottom: 25px;
+}
+
+.git-img img {
+    color: white;
+  font-size: 7rem;
+  margin-bottom: 25px;
+}
+
+.github-img img {
+    color: white;
+  font-size: 7rem;
+  margin-bottom: 25px;
+}
+
+.vs-img img {
+    color: white;
+  font-size: 7rem;
+  margin-bottom: 25px;
+}
+
+.rd-img img {
+    color: white;
+  font-size: 7rem;
+  margin-bottom: 25px;
+}
+
 
 
 
