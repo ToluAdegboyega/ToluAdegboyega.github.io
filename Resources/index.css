@@ -229,12 +229,12 @@ body {
     margin-right: 5px;
     margin-left: 5px;
     -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
+
 .style-conference-text a {
     text-decoration: none;
     color: black;
-    
 }
 
 .style-conference-button-b {
