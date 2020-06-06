@@ -247,6 +247,20 @@ body {
         padding-right: 1px;
     }
 
+    .main-about-text {
+        display: flex;
+        align-items: center;
+        padding-bottom: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        text-align: center;
+    
+    }
+
 
 
 
