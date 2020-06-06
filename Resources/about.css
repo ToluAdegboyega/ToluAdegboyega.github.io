@@ -182,6 +182,24 @@ body {
     border-radius: 50%;
 }
 
+.skills {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.skills h2 {
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #66023c;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-skills {
+    
+}
+
 
 
 
