@@ -1180,7 +1180,13 @@ body {
 
 
 
+ 
+}
 
+@media only screen and (max-width: 350px) {
+    .style-conference-img img {
+        width: 250px;
+    }
 }
 
   
