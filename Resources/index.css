@@ -1186,4 +1186,24 @@ body {
     width: 250px;
     }
 
+    .tribute-img img {
+        width: 250px;
+    }
+
+    .survey-img img {
+        width: 250px;
+    }
+
+    .product-landing-img img {
+        width: 250px;
+    }
+
+    .tech-page-img img {
+        width: 250px;
+    }
+
+    .port-page-img img {
+        width: 250px;
+    }
+
 }
