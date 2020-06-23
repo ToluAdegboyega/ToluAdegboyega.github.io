@@ -370,7 +370,7 @@ body {
     padding-left: 5px;
     color: black;
     border: 2px solid rgba(211, 17, 59, 0.5);
-    margin-right: 20px;
+    margin: 5px;
 }
 
 .tribute {
@@ -460,7 +460,7 @@ body {
     padding-left: 5px;
     color: black;
     border: 2px solid rgba(56, 210, 213, 0.5);
-    margin-right: 20px;
+    margin: 5px;
 }
 
 
@@ -552,7 +552,7 @@ body {
     padding-left: 5px;
     color: black;
     border: 2px solid rgba(246, 255, 75, 0.65);
-    margin-right: 20px;
+    margin: 5px;
 }
 
 
@@ -644,7 +644,7 @@ body {
     padding-left: 5px;
     color: black;
     border: 2px solid rgba(233, 100, 23, 0.65);
-    margin-right: 20px;
+    margin: 5px;
 }
 
 .tech-page {
@@ -735,7 +735,7 @@ body {
     padding-left: 5px;
     color: black;
     border: 2px solid rgba(75, 102, 255, 0.65);
-    margin-right: 20px;
+    margin: 5px;
 }
 
 .port-page {
@@ -826,7 +826,7 @@ body {
     padding-left: 5px;
     color: black;
     border: 2px solid rgba(211, 17, 59, 0.5);
-    margin-right: 20px;
+    margin: 5px;
 }
 
 .nav-bar .icon {
