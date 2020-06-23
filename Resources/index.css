@@ -282,8 +282,6 @@ body {
     margin-right: 20px;
 }
 
-//randomquotepage
-
 .style-conference {
     display: flex;
     align-items: center;
@@ -310,6 +308,7 @@ body {
     color: black;
 
 }
+
 .style-conference-button-a {
     margin-top: 20px;
     padding: 5px 10px;
@@ -340,6 +339,7 @@ body {
     -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 .style-conference-text a {
     text-decoration: none;
     color: black;
