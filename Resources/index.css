@@ -273,10 +273,10 @@ body {
     list-style-type: none;
     display: inline-block;
     font-size: 20px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
     color: black;
     border: 2px solid rgba(9, 126, 116, 0.5);
     margin-right: 20px;
@@ -1306,6 +1306,10 @@ body {
         text-decoration: none;
         color: #66023c;
         font-size: 50px;
+    }
+
+    .quote-machine-text ul {
+        padding: 10px;
     }
 
 
