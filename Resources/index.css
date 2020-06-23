@@ -193,6 +193,187 @@ body {
     padding-right: 200px;
 }
 
+.quote-machine {
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(238, 66, 102, 0.5);
+}
+
+.quote-machine-img img {
+    margin-right: 30px;
+
+}
+
+.quote-machine-text h3 {
+    color: rgba(211, 17, 59, 0.5);
+    font-size: 30px;
+}
+
+.quote-machine-text p {
+    font-size: 20px;
+    color: black;
+
+}
+.quote-machine-button-a {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f2f4;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.quote-machine-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.quote-machine-button-b {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f2f4;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.quote-machine-text a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.quote-machine-button-a:hover,
+.quote-machine-button-a:focus {
+  background: rgba(211, 17, 59, 0.5);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.quote-machine-button-b:hover,
+.quote-machine-button-b:focus {
+  background: rgba(211, 17, 59, 0.5);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.quote-machine-text li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: black;
+    border: 2px solid rgba(211, 17, 59, 0.5);
+    margin-right: 20px;
+}
+
+.style-conference {
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(238, 66, 102, 0.5);
+}
+
+.style-conference-img img {
+    margin-right: 30px;
+
+}
+
+.style-conference-text h3 {
+    color: rgba(211, 17, 59, 0.5);
+    font-size: 30px;
+}
+
+.style-conference-text p {
+    font-size: 20px;
+    color: black;
+
+}
+.style-conference-button-a {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f2f4;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.style-conference-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.style-conference-button-b {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f2f4;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.style-conference-text a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.style-conference-button-a:hover,
+.style-conference-button-a:focus {
+  background: rgba(211, 17, 59, 0.5);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.style-conference-button-b:hover,
+.style-conference-button-b:focus {
+  background: rgba(211, 17, 59, 0.5);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.style-conference-text li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: black;
+    border: 2px solid rgba(211, 17, 59, 0.5);
+    margin-right: 20px;
+}
+
+
+//randomquotepage
+
 .style-conference {
     display: flex;
     align-items: center;
