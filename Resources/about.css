@@ -70,10 +70,11 @@ body {
 
 .footer {
     background-color: whitesmoke;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: -8px;
+    display: flex;
+    
 }
+
+// margin-left: -8px; margin-right: -8px; margin-bottom: -8px;
 
 .nav-foot {
     background-color: whitesmoke;
