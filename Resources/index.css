@@ -292,7 +292,7 @@ body {
     padding-left: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-bottom: 2px solid rgba(9, 126, 116, 0.5);
+    border-bottom: 2px solid rgba(209, 52, 24, 0.842);
 }
 
 .quote-machine-img img {
@@ -301,7 +301,7 @@ body {
 }
 
 .quote-machine-text h3 {
-    color: rgba(9, 126, 116, 0.5);
+    color: rgba(209, 52, 24, 0.842);
     font-size: 30px;
 }
 
@@ -348,14 +348,14 @@ body {
 
 .quote-machine-button-a:hover,
 .quote-machine-button-a:focus {
-  background: rgba(9, 126, 116, 0.5);
+  background: rgba(209, 52, 24, 0.842);
   -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
           box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
 }
 
 .quote-machine-button-b:hover,
 .quote-machine-button-b:focus {
-  background: rgba(9, 126, 116, 0.5);
+  background: rgba(209, 52, 24, 0.842);
   -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
           box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
 }
@@ -369,7 +369,7 @@ body {
     padding-bottom: 5px;
     padding-left: 5px;
     color: black;
-    border: 2px solid rgba(9, 126, 116, 0.5);
+    border: 2px solid rgba(209, 52, 24, 0.842);
     margin: 5px;
 }
 
