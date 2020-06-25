@@ -194,6 +194,96 @@ body {
     padding-right: 200px;
 }
 
+.markdown-previewer {
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(9, 126, 116, 0.5);
+}
+
+.markdown-previewer-img img {
+    margin-right: 30px;
+
+}
+
+.markdown-previewer-text h3 {
+    color: rgba(9, 126, 116, 0.5);
+    font-size: 30px;
+}
+
+.markdown-previewer-text p {
+    font-size: 20px;
+    color: black;
+
+}
+.markdown-previewer-button-a {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f2f4;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.markdown-previewer-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.markdown-previewer-button-b {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f2f4;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.markdown-previewer-text a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.markdown-previewer-button-a:hover,
+.markdown-previewer-button-a:focus {
+  background: rgba(9, 126, 116, 0.5);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.markdown-previewer-button-b:hover,
+.markdown-previewer-button-b:focus {
+  background: rgba(9, 126, 116, 0.5);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.markdown-previewer-text li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: black;
+    border: 2px solid rgba(9, 126, 116, 0.5);
+    margin: 5px;
+}
+
+
 .quote-machine {
     display: flex;
     align-items: center;
@@ -1011,6 +1101,13 @@ body {
         margin-right: 0px;
     }
 
+    .markdown-previewer {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
     .quote-machine {
         display: flex;
         flex-direction: column;
@@ -1060,6 +1157,11 @@ body {
         padding-right: 1px;
     }
 
+    .markdown-previewer-img img {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
     .quote-machine-img img {
         margin-right: 1px;
         margin-left: 1px;
@@ -1093,6 +1195,13 @@ body {
     .port-page-img img {
         margin-right: 1px;
         margin-left: 1px;
+    }
+
+    .markdown-previewer-text {
+        margin-right: 1px;
+        margin-left: 1px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .quote-machine-text {
@@ -1142,6 +1251,26 @@ body {
         margin-left: 1px;
         padding-right: 20px;
         padding-left: 20px;
+    }
+
+    .markdown-previewer-text h3{
+        font-size: 20px;
+    }
+    
+    .markdown-previewer-text p {
+        font-size: 18px;
+    }
+    
+    .markdown-previewer-button-a {
+        font-size: 15px;
+    }
+    
+    .markdown-previewer-button-b {
+        font-size: 15px;
+    }
+    
+    .markdown-previewer-text li {
+        font-size: 15px;
     }
 
     .quote-machine-text h3{
@@ -1313,12 +1442,16 @@ body {
 }
 
 @media only screen and (max-width: 350px) {
+    .markdown-previewer-img img {
+        width: 250px;
+    }
+
     .quote-machine-img img {
         width: 250px;
-        }
+    }
 
     .style-conference-img img {
-    width: 250px;
+        width: 250px;
     }
 
     .tribute-img img {
