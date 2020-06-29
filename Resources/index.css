@@ -953,6 +953,8 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #b768a2;
+    
 }
 
 label {
@@ -966,7 +968,7 @@ label input {
     height: 30px;
     border-radius: 5px;
     padding-left: 5px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 label textarea {
@@ -976,10 +978,11 @@ label textarea {
     border-radius: 5px;
     padding-left: 5px;
     padding-top: 5px;
+    font-size: 15px;
 }
 
 form button {
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 5px;
     padding: 5px;
     cursor: pointer;
