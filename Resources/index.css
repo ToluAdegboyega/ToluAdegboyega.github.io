@@ -941,8 +941,13 @@ body {
 
 form {
     height: 500px;
+    background-color: #66023cf1;
+    border-radius: 10px;
 }
 
+label {
+    font-size: 30px;
+}
 /* 
 
 label input {
