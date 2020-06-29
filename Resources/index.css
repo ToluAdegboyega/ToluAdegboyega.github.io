@@ -933,8 +933,11 @@ body {
 }
 
 #contact-form {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+}
+
+label {
+    grid-template-columns: 1fr;
 }
 
 .fa-envelope { 
