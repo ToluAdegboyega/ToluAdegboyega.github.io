@@ -939,7 +939,12 @@ body {
 
 label input {
     display: inline-block;
-    width: 300px;
+    width: 500px;
+}
+
+label textarea {
+    display: inline-block;
+    width: 500px;
 }
 
 .fa-envelope { 
