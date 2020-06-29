@@ -1542,7 +1542,7 @@ form button {
 
 }
 
-@media only screen and (max-height: 550px) {
+@media only screen and (max-height: 600px) {
     form {
         height: 380px;
     }
