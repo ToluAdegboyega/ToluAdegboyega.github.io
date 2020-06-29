@@ -938,10 +938,6 @@ body {
    
 }
 
-label {
-    margin: 30px;
-}
-
 label input {
     display: inline-block;
     width: 500px;
