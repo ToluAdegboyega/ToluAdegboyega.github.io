@@ -1509,6 +1509,10 @@ form button {
         width: 250px;
     }
 
+    #contact {
+        padding-top: 10px;
+    }
+
     #contact-form {
         padding: 20px;
     }
