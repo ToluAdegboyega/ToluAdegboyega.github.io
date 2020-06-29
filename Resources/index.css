@@ -926,18 +926,12 @@ body {
 }
 
 .main-contact {
-    padding: 0px 50px 200px 50px;
+    padding: 0px 50px 300px 50px;
 }
 
 .main-contact h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    font-weight: 400;
-}
-
-.main-contact h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
     font-weight: 400;
 }
 
