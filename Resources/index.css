@@ -940,9 +940,10 @@ body {
 }
 
 form {
+    width: 300px;
     height: 500px;
-    background-color: #66023c98;
-    border-radius: 10px;
+    background-color: #d868a9da;
+    border-radius: 20px;
 }
 
 label {
