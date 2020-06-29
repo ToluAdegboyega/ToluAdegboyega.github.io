@@ -935,10 +935,12 @@ body {
 #contact-form {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
-label {
+/* label {
     margin: 30px;
 }
 
@@ -951,6 +953,7 @@ label textarea {
     display: inline-block;
     width: 500px;
 }
+*/
 
 .fa-envelope { 
     text-decoration: none;
