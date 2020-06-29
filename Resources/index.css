@@ -929,6 +929,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #contact-form {
@@ -940,9 +942,9 @@ body {
 }
 
 form {
-    width: 300px;
-    height: 500px;
-    background-color: #d868a9da;
+    width: 500px;
+    height: 400px;
+    background-color: #853d67;
     border-radius: 20px;
 }
 
