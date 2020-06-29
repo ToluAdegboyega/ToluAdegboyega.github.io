@@ -947,6 +947,14 @@ body {
     font-weight: 400;
 }
 
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .fa-envelope { 
     text-decoration: none;
     color: #66023c;
