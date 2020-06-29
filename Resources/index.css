@@ -1541,3 +1541,9 @@ form button {
     }
 
 }
+
+@media only screen and (max-height: 450px) {
+    form {
+        height: 380px;
+    }
+}
