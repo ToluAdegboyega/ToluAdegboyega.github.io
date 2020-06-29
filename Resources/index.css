@@ -935,6 +935,11 @@ body {
 #contact-form {
     display: flex;
     flex-direction: column;
+   
+}
+
+label {
+    margin: 30px;
 }
 
 label input {
