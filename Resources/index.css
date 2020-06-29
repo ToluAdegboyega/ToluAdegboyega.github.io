@@ -932,7 +932,7 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 #contact-form {
@@ -984,8 +984,9 @@ label textarea {
 form button {
     font-size: 15px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
+    color: #b768a2;
 }
 
 .fa-envelope { 
@@ -1452,7 +1453,7 @@ form button {
     }
 
     .main-contact {
-        padding-top: 120px;
+        padding-top: 50px;
         padding-left: 25px;
         padding-right: 25px;
         padding-bottom: 10px;
@@ -1464,11 +1465,6 @@ form button {
         font-weight: 400;
     }
     
-    .main-contact h2 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-    }
     
     .fa-envelope { 
         text-decoration: none;
@@ -1510,6 +1506,10 @@ form button {
 
     .port-page-img img {
         width: 250px;
+    }
+
+    form {
+        width: 300;
     }
 
 }
