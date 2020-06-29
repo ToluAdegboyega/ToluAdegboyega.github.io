@@ -5,11 +5,6 @@ body {
     position: relative;
 }
 
-#test{
-    -webkit-transition: left 1s ease;
-    transition: left 1s ease;
-  }
-
 .main-header {
     background-color: whitesmoke;
 }
@@ -114,6 +109,10 @@ body {
     color: #b768a2;
     text-align: center;
     margin-top: 1px;
+
+    -webkit-transition: left 1s ease;
+    transition: left 1s ease;
+  }
 
 }
 
