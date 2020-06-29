@@ -929,7 +929,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 400;
-    margin: auto;
 }
 
 #contact-form {
@@ -940,8 +939,8 @@ body {
     padding: 50px 50px 0px 50px;
 }
 
-label {
-    margin: 30px;
+form {
+    height: 100%;
 }
 
 /* 
