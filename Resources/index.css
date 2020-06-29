@@ -987,6 +987,7 @@ form button {
     padding: 10px;
     cursor: pointer;
     color: #b768a2;
+    font-weight: 700;
 }
 
 .fa-envelope { 
