@@ -23,7 +23,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body onload="script();">
+        
         <script>
             function myFunction() {
             var x = document.getElementById("my-navbar");
@@ -56,7 +57,7 @@
                     <span id="typed"></span>
                 </h1>
 
-                <p> I am a front-end developer that enjoys building aesthetically pleasing and functional products. </p>
+                <p id="test"> I am a front-end developer that enjoys building aesthetically pleasing and functional products. </p>
                 
                 <ul class = "social-media">
                     <li>
@@ -316,13 +317,22 @@
             <div class = "main-contact">
                 <h1>
                     Let's chat! I'm open to lots of new opportunities, freelance or a fulltime position.
-                    <br>
+                </h1>
+                <!-- <br>
                     Please send me an E-mail:
                 </h1>
                 <a href="mailto:tolzygboyega19@gmail.com" class = "fas fa-envelope" target="_blank"> </a>
                 <h2>
                     tolzygboyega19@gmail.com 
-                </h2>     
+                </h2>    -->
+            </div>
+            <div id="contact-form">
+                <form action="" method="POST">
+                    <input type="hidden" name="_subject" value="Contact request from personal website" />
+                    <input type="email" name="_replyto" placeholder="Your email" required />
+                    <textarea name="message" placeholder="Type your message" required></textarea>
+                    <button type="submit"> Send </button>
+                </form>
             </div>
         </section>
 
