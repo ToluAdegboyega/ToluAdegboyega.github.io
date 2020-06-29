@@ -1476,7 +1476,38 @@ form button {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
+    #contact {
+        padding-top: 10px;
+    }
+
+    #contact-form {
+        padding-left: 0px 20px 20px 20px;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    label input {
+        width: 200px;
+    }
+
+    label textarea {
+        width: 200px;
+    }
+
+    .main-contact h1 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #projects {
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
     .markdown-previewer-img img {
         width: 250px;
     }
@@ -1509,32 +1540,4 @@ form button {
         width: 250px;
     }
 
-    #contact {
-        padding-top: 10px;
-    }
-
-    #contact-form {
-        padding-left: 0px 20px 20px 20px;
-    }
-
-    form {
-        width: 300px;
-    }
-
-    label input {
-        width: 200px;
-    }
-
-    label textarea {
-        width: 200px;
-    }
-
-    .main-contact h1 {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-    #projects {
-        padding-bottom: 50px;
-    }
 }
