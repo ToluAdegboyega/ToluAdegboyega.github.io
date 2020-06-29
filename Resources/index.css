@@ -931,6 +931,7 @@ body {
     font-weight: 400;
     padding-left: 50px;
     padding-right: 50px;
+    text-align: center;
 }
 
 #contact-form {
@@ -944,8 +945,9 @@ body {
 form {
     width: 500px;
     height: 400px;
-    background-color: #853d67;
+    background-color: #66023c;
     border-radius: 20px;
+    padding: 20px;
 }
 
 label {
