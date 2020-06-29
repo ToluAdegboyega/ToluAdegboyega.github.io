@@ -24,7 +24,7 @@
     </head>
 
     <body onload="script();">
-        
+
         <script>
             function myFunction() {
             var x = document.getElementById("my-navbar");
@@ -33,6 +33,14 @@
             } else {
                 x.className = "nav-bar";
             }
+            }
+        </script>
+
+        <script>
+            function script(){
+                setTimeout(function(){
+                    document.getElementById('test').style.left = '1000px'; // new left position is 1000px in this example
+                }, 2000); // 2000 = 2 seconds after page load
             }
         </script>
         
@@ -327,11 +335,20 @@
                 </h2>    -->
             </div>
             <div id="contact-form">
-                <form action="" method="POST">
-                    <input type="hidden" name="_subject" value="Contact request from personal website" />
-                    <input type="email" name="_replyto" placeholder="Your email" required />
-                    <textarea name="message" placeholder="Type your message" required></textarea>
-                    <button type="submit"> Send </button>
+                <form action="https://formspree.io/xvowbdaz" method="POST">
+                    <label>
+                        Your name:
+                        <input type="text" name="name" placeholder="Your name" required />
+                    </label>
+                    <label>
+                        Your Email:
+                        <input type="email" name="_replyto" placeholder="Your email" required />
+                    </label>
+                    <label>
+                        Message:
+                     <textarea name="message" placeholder="Type your message" required></textarea>
+                    </label>
+                    <input type="submit" value="send" />
                 </form>
             </div>
         </section>
