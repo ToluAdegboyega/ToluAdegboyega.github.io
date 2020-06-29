@@ -937,6 +937,9 @@ body {
     flex-direction: column;
    
 }
+label {
+    margin: 30px;
+}
 
 label input {
     display: inline-block;
