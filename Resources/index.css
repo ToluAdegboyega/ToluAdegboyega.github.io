@@ -935,7 +935,7 @@ body {
     font-weight: 400;
 }
 
-#contact-form {
+.form {
     display: flex;
     flex-direction: column;
     justify-content: center;
