@@ -110,10 +110,6 @@ body {
     text-align: center;
     margin-top: 1px;
 
-    -webkit-transition: left 1s ease;
-    transition: left 1s ease;
-  }
-
 }
 
 .social-media {
@@ -936,12 +932,9 @@ body {
     margin: auto;
 }
 
-.form {
+#contact-form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .fa-envelope { 
