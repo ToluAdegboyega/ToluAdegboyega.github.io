@@ -984,10 +984,11 @@ label textarea {
 form button {
     font-size: 15px;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     cursor: pointer;
     color: #b768a2;
     font-weight: 700;
+    width: 30px;
 }
 
 .fa-envelope { 
