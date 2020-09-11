@@ -1232,6 +1232,13 @@ form button {
         margin-right: 0px;
     }
 
+    .drum-machine {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
     .markdown-previewer {
         display: flex;
         flex-direction: column;
@@ -1288,6 +1295,11 @@ form button {
         padding-right: 1px;
     }
 
+    .drum-machine-img img {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
     .markdown-previewer-img img {
         margin-right: 1px;
         margin-left: 1px;
@@ -1326,6 +1338,13 @@ form button {
     .port-page-img img {
         margin-right: 1px;
         margin-left: 1px;
+    }
+
+    .drum-machine-text {
+        margin-right: 1px;
+        margin-left: 1px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .markdown-previewer-text {
@@ -1382,6 +1401,26 @@ form button {
         margin-left: 1px;
         padding-right: 20px;
         padding-left: 20px;
+    }
+
+    .drum-machine-text h3{
+        font-size: 20px;
+    }
+    
+    .drum-machine-text p {
+        font-size: 18px;
+    }
+    
+    .drum-machine-button-a {
+        font-size: 15px;
+    }
+    
+    .drum-machine-button-b {
+        font-size: 15px;
+    }
+    
+    .drum-machine-text li {
+        font-size: 15px;
     }
 
     .markdown-previewer-text h3{
@@ -1599,6 +1638,10 @@ form button {
 }
 
 @media only screen and (max-width: 350px) {
+    .drum-machine-img img {
+        width: 250px;
+    }
+
     .markdown-previewer-img img {
         width: 250px;
     }
