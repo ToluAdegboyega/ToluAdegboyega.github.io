@@ -15,10 +15,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Resources\rsz_fullsizerender-9-01.jpg" type="image/jpg" sizes="64x64">
     <script src="https://kit.fontawesome.com/0ca43f027b.js" crossorigin="anonymous"></script>
+    <noscript> You need JavaScript to load this page :( </noscript>
     <title>
         Tolu Adegboyega: Front-end Developer.
     </title>
     <link rel="stylesheet" href="Resources\index.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap"
@@ -27,6 +29,11 @@
 </head>
 
 <body>
+
+    <div class="loading">
+        <div class="circle"> </div>
+        <div class="circle"> </div>
+    </div>
 
     <script>
         function myFunction() {
@@ -38,6 +45,8 @@
             }
         }
     </script>
+
+    <div class="main-main">
 
     <header class="main-header">
         <nav class="nav-bar" id="my-navbar">
@@ -52,7 +61,7 @@
     </header>
 
     <main class="main">
-        <div class="main-body">
+        <div class="main-body" >
             <h1>
                 <div id="name-carousel">
                     <span> Hello, I'm Tolu.</span>
@@ -84,18 +93,18 @@
     </main>
 
     <section id="projects">
-        <h2> Some projects I have worked on: </h2>
+        <!--<h2> Some projects I have worked on: </h2>-->
 
         <div class="main-project">
 
-            <div class="drum-machine">
+            <div class="drum-machine"  data-aos="fade-up">
                 <div class="drum-machine-img">
                     <img src="Resources/rsz_screenshot_5881.png" alt="A screenshot of Drum Machine page."></img>
                 </div>
                 <div class="drum-machine-text">
                     <h3> Drum Machine </h3>
                     <p>
-                        Ba dum Tss! Fun drum machine project.
+                        Ba dum Tss! Make music and have incredible fun with this drum machine project.
                     </p>
                     <ul>
                         <li>
@@ -117,7 +126,7 @@
                 </div>
             </div>
 
-            <div class="markdown-previewer">
+            <div class="markdown-previewer"  data-aos="fade-up">
                 <div class="markdown-previewer-img">
                     <img src="Resources/rsz_screenshot_5766.png" alt="A screenshot of Markdown Previewer page."></img>
                 </div>
@@ -145,7 +154,7 @@
                 </div>
             </div>
 
-            <div class="quote-machine">
+            <div class="quote-machine"  data-aos="fade-up">
                 <div class="quote-machine-img">
                     <img src="Resources\rsz_screenshot_5763.png" alt="A screenshot of Random Quote Machine page."></img>
                 </div>
@@ -181,14 +190,15 @@
                 </div>
             </div>
 
-            <div class="jumpstart">
+            <div class="jumpstart"  data-aos="fade-up">
                 <div class="jumpstart-img">
                     <img src="Resources/rsz_screenshot_5883.png" alt="A screenshot of Jumpstart  page."></img>
                 </div>
                 <div class="jumpstart-text">
                     <h3> Jumpstart </h3>
                     <p>
-                        Fully responsive landing page.
+                        Fully responsive landing page. I had to replicate this web page within a very short time frame
+                        and it was such an experience!
                     </p>
                     <ul>
                         <li>
@@ -211,7 +221,7 @@
                 </div>
             </div>
 
-            <div class="style-conference">
+            <div class="style-conference"  data-aos="fade-up">
                 <div class="style-conference-img">
                     <img src="Resources\rsz_screenshot_4870.png" alt="A screenshot of Style Conference page."></img>
                 </div>
@@ -240,7 +250,7 @@
                 </div>
             </div>
 
-            <div class="tribute">
+            <div class="tribute"  data-aos="fade-up">
                 <div class="tribute-img">
                     <img src="Resources\rsz_screenshot_4857.png" alt="A screenshot of Tribute page."></img>
                 </div>
@@ -269,7 +279,7 @@
                 </div>
             </div>
 
-            <div class="survey-form">
+            <div class="survey-form"  data-aos="fade-up">
                 <div class="survey-img">
                     <img src="Resources\rsz_screenshot_4858.png" alt="A screenshot of Survey form"></img>
                 </div>
@@ -297,7 +307,7 @@
                 </div>
             </div>
 
-            <div class="product-landing">
+            <div class="product-landing"  data-aos="fade-up">
                 <div class="product-landing-img">
                     <img src="Resources\rsz_screenshot_4860.png" alt="A screenshot of Landing Page"></img>
                 </div>
@@ -324,7 +334,7 @@
                 </div>
             </div>
 
-            <div class="tech-page">
+            <div class="tech-page"  data-aos="fade-up">
                 <div class="tech-page-img">
                     <img src="Resources\rsz_screenshot_4862.png"
                         alt="A screenshot of Technical Documentation Page"></img>
@@ -352,7 +362,7 @@
                 </div>
             </div>
 
-            <div class="port-page">
+            <div class="port-page"  data-aos="fade-up">
                 <div class="port-page-img">
                     <img src="Resources\rsz_screenshot_4864.png" alt="A screenshot of My First Portfolio Page"></img>
                 </div>
@@ -406,24 +416,35 @@
 
     </section>
 
+    <footer class="footer">
+        
+        <nav class="nav-foot">
+            <div class="copy-right">
+                <p>
+                    © Tolu Adegboyega 2020
+                </p>
+            </div>
+            <div class="nav-links">
+                <a href="https://www.linkedin.com/in/toluwalaseadegboyega/" target="_blank"> LinkedIn </a>
+                <a href="https://github.com/ToluAdegboyega" target="_blank"> GitHub </a>
+                <a href="mailto:tolzygboyega19@gmail.com" target="_blank"> Mail </a>
+            </div>
+        </nav>
+    </footer>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script src="Resources\script.js" type="text/javascript"> </script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+              duration: 800,
+            });
+          </script>
 </body>
 
-<footer class="footer">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <script src="Resources\script.js" type="text/javascript"> </script>
-    <nav class="nav-foot">
-        <div class="copy-right">
-            <p>
-                © Tolu Adegboyega 2020
-            </p>
-        </div>
-        <div class="nav-links">
-            <a href="https://www.linkedin.com/in/toluwalaseadegboyega/" target="_blank"> LinkedIn </a>
-            <a href="https://github.com/ToluAdegboyega" target="_blank"> GitHub </a>
-            <a href="mailto:tolzygboyega19@gmail.com" target="_blank"> Mail </a>
-        </div>
-    </nav>
-</footer>
+
 
 </html>

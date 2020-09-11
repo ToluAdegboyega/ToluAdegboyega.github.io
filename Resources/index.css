@@ -3,6 +3,55 @@ body {
     background-color:  white;
     color: #b768a2;
     position: relative;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.loading {
+    height: 50px;
+    transform-origin: bottom center;
+    animation: rotate 3s linear infinite;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    display: inline-block;
+    background-color: #b768a2;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: grow 1.5s linear infinite;
+    margin: -10px;
+}
+
+.circle:nth-child(2) {
+    background-color: rgb(98, 107, 107);
+    animation-delay: 0.75s;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes grow {
+    50% {
+        transform: scale(1);
+    }
+}
+
+.main-main {
+    opacity: 0;
+    display: none;
+    transition: opacity 2s ease-in;
 }
 
 .main-header {
@@ -167,7 +216,7 @@ body {
     padding-bottom: 50px;
 }
 
-#projects h2 {
+/*#projects h2 {
     font-size: 30px;
     margin-top: 16px;
     margin-bottom: 16px;
@@ -176,7 +225,7 @@ body {
     padding-left: 200px;
     margin-left: 20px;
     font-family: 'Montserrat', sans-serif;
-}
+}*/
 
 .main-project {
     display: flex;
@@ -199,7 +248,7 @@ body {
     padding-left: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-bottom: 2px solid rgba(9, 126, 116, 0.5);
+    border-bottom: 2px solid rgba(255, 200, 19, 0.925);
 }
 
 .drum-machine-img img {
@@ -208,7 +257,7 @@ body {
 }
 
 .drum-machine-text h3 {
-    color: rgba(9, 126, 116, 0.5);
+    color: rgba(255, 200, 19, 0.925);
     font-size: 30px;
 }
 
@@ -256,14 +305,14 @@ body {
 
 .drum-machine-button-a:hover,
 .drum-machine-button-a:focus {
-  background: rgba(9, 126, 116, 0.5);
+  background: rgba(255, 200, 19, 0.925);
   -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
           box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
 }
 
 .drum-machine-button-b:hover,
 .drum-machine-button-b:focus {
-  background: rgba(9, 126, 116, 0.5);
+  background: rgba(255, 200, 19, 0.925);
   -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
           box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
 }
@@ -277,7 +326,7 @@ body {
     padding-bottom: 5px;
     padding-left: 5px;
     color: black;
-    border: 2px solid rgba(9, 126, 116, 0.5);
+    border: 2px solid rgba(255, 200, 19, 0.925);
     margin: 5px;
 }
 
@@ -457,6 +506,96 @@ body {
     padding-left: 5px;
     color: black;
     border: 2px solid rgba(209, 52, 24, 0.842);
+    margin: 5px;
+}
+
+.jumpstart {
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(4, 207, 113, 0.925);
+}
+
+.jumpstart-img img {
+    margin-right: 30px;
+
+}
+
+.jumpstart-text h3 {
+    color: rgba(4, 207, 113, 0.925);
+    font-size: 30px;
+}
+
+.jumpstart-text p {
+    font-size: 20px;
+    color: black;
+
+}
+.jumpstart-button-a {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f2f4;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.jumpstart-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumpstart-button-b {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f2f4;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.jumpstart-text a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.jumpstart-button-a:hover,
+.jumpstart-button-a:focus {
+  background: rgba(4, 207, 113, 0.925);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.jumpstart-button-b:hover,
+.jumpstart-button-b:focus {
+  background: rgba(4, 207, 113, 0.925);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.jumpstart-text li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: black;
+    border: 2px solid rgba(4, 207, 113, 0.925);
     margin: 5px;
 }
 
@@ -1253,6 +1392,13 @@ form button {
         padding-right: 1px;
     }
 
+    .jumpstart {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
     .style-conference {
         display: flex;
         flex-direction: column;
@@ -1310,6 +1456,11 @@ form button {
         margin-left: 1px;
     }
 
+    .jumpstart-img img {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
     .style-conference-img img {
         margin-right: 1px;
         margin-left: 1px;
@@ -1355,6 +1506,13 @@ form button {
     }
 
     .quote-machine-text {
+        margin-right: 1px;
+        margin-left: 1px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .jumpstart-text {
         margin-right: 1px;
         margin-left: 1px;
         padding-right: 20px;
@@ -1460,6 +1618,26 @@ form button {
     }
     
     .quote-machine-text li {
+        font-size: 15px;
+    }
+
+    .jumpstart-text h3{
+        font-size: 20px;
+    }
+    
+    .jumpstart-text p {
+        font-size: 18px;
+    }
+    
+    .jumpstart-button-a {
+        font-size: 15px;
+    }
+    
+    .jumpstart-button-b {
+        font-size: 15px;
+    }
+    
+    .jumpstart-text li {
         font-size: 15px;
     }
 
@@ -1647,6 +1825,10 @@ form button {
     }
 
     .quote-machine-img img {
+        width: 250px;
+    }
+
+    .jumpstart-img img {
         width: 250px;
     }
 
