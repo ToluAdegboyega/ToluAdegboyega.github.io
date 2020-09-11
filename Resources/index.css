@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
 }
 
-.loading {
+/*.loading {
     height: 50px;
     transform-origin: bottom center;
     animation: rotate 3s linear infinite;
@@ -52,7 +52,7 @@ body {
     opacity: 0;
     display: none;
     transition: opacity 2s ease-in;
-}
+}*/
 
 .main-header {
     background-color: whitesmoke;

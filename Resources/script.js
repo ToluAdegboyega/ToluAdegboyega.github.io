@@ -8,7 +8,7 @@ var typed = new Typed('#typed', {
   backDelay: 3400,
 });
 
-const loading = document.querySelector('.loading');
+/*const loading = document.querySelector('.loading');
 const main = document.querySelector('.main-main');
 
 function init() {
@@ -21,4 +21,4 @@ function init() {
     }, 4000);
 }
 
-init();
+init();*/

@@ -3,6 +3,7 @@ body {
     background-color:  white;
     color: #b768a2;
     position: relative;
+    overflow-x: hidden;
 }
 
 
