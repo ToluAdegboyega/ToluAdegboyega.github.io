@@ -4,6 +4,10 @@ body {
     color: #b768a2;
     position: relative;
     overflow-x: hidden;
+     width: 100%;
+    margin: 0 0 0 0;
+    padding: 0;
+    height: 100%;
 }
 
 
