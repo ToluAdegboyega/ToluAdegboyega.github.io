@@ -29,10 +29,7 @@ body {
 
 .nav-bar ul {
   list-style-type: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding: 10px 50px 10px 50px;
 }
 
 .nav-bar a {
@@ -124,10 +121,7 @@ body {
 
 .social-media ul {
   list-style-type: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding: 10px 40px 10px 40px;
 }
 
 .social-media a {
@@ -136,10 +130,7 @@ body {
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 40px;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
+  padding: 15px;
   margin-right: 15px;
   margin-left: 15px;
   border-radius: 50%;
@@ -188,10 +179,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0 20px 0 20px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -231,10 +219,7 @@ body {
     list-style-type: none;
     display: inline-block;
     font-size: 20px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+    padding: 5px;
     color: black;
     border: 2px solid rgba(255, 200, 19, 0.925);
     margin: 5px;
@@ -275,10 +260,7 @@ body {
     list-style-type: none;
     display: inline-block;
     font-size: 20px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+    padding: 5px;
     color: black;
     border: 2px solid rgba(9, 126, 116, 0.5);
     margin: 5px;
@@ -320,10 +302,7 @@ body {
   list-style-type: none;
   display: inline-block;
   font-size: 20px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  padding: 5px;
   color: black;
   border: 2px solid rgba(209, 52, 24, 0.842);
   margin: 5px;
@@ -364,10 +343,7 @@ body {
   list-style-type: none;
   display: inline-block;
   font-size: 20px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  padding: 5px;
   color: black;
   border: 2px solid rgba(4, 207, 113, 0.925);
   margin: 5px;
@@ -408,10 +384,7 @@ body {
   list-style-type: none;
   display: inline-block;
   font-size: 20px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  padding: 5px;
   color: black;
   border: 2px solid rgba(211, 17, 59, 0.5);
   margin: 5px;
@@ -452,10 +425,7 @@ body {
   list-style-type: none;
   display: inline-block;
   font-size: 20px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  padding: 5px;
   color: black;
   border: 2px solid rgba(56, 210, 213, 0.5);
   margin: 5px;
@@ -496,10 +466,7 @@ body {
   list-style-type: none;
   display: inline-block;
   font-size: 20px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  padding: 5px;
   color: black;
   border: 2px solid rgba(246, 255, 75, 0.65);
   margin: 5px;
@@ -540,10 +507,7 @@ body {
   list-style-type: none;
   display: inline-block;
   font-size: 20px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  padding: 5px;
   color: black;
   border: 2px solid rgba(233, 100, 23, 0.65);
   margin: 5px;
@@ -584,10 +548,7 @@ body {
   list-style-type: none;
   display: inline-block;
   font-size: 20px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  padding: 5px;
   color: black;
   border: 2px solid rgba(75, 102, 255, 0.65);
   margin: 5px;
@@ -621,10 +582,7 @@ body {
   list-style-type: none;
   display: inline-block;
   font-size: 20px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  padding: 5px;
   color: black;
   border: 2px solid rgba(211, 17, 59, 0.5);
   margin: 5px;
@@ -1045,10 +1003,7 @@ form button {
 
   
   .main-contact {
-    padding-top: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 10px;
+    padding: 10px 25px 10px 25px;
   }
 
   .main-contact h1 {
