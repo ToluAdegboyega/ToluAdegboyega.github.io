@@ -18,13 +18,17 @@ body {
 .nav-bar {
   list-style-type: none;
   text-align: right;
-  background-color: whitesmoke;
   top: 0;
   left: 0;
   width: 100%;
   position: fixed;
   overflow: hidden;
   padding-top: 10px;
+  transition: 0.5s ease;
+}
+
+.nav-bar.scrolled {
+  background-color: whitesmoke;
 }
 
 .nav-bar ul {
@@ -171,7 +175,7 @@ body {
   text-align: left;
   padding-left: 50px;
   margin-left: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: inherit;
 }
 
 .main-project {
@@ -180,8 +184,49 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 20px 0 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.todo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgba(255, 19, 117, 0.925);
+}
+
+.todo-text h3 {
+  color: rgba(255, 19, 117, 0.925);
+  font-size: 30px;
+}
+
+.todo-button-a:hover,
+.todo-button-a:focus {
+  background: rgba(255, 19, 117, 0.925);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.todo-button-b:hover,
+.todo-button-b:focus {
+  background:rgba(255, 19, 117, 0.925);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.todo-text li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    border: 2px solid rgba(255, 19, 117, 0.925);
+    margin: 5px;
 }
 
 .drum-machine {
@@ -588,6 +633,7 @@ body {
   margin: 5px;
 }
 
+.todo-img img,
 .drum-machine-img img,
 .markdown-previewer-img img,
 .quote-machine-img img,
@@ -602,6 +648,7 @@ body {
     margin-right: 30px;
 }
 
+.todo-text p,
 .drum-machine-text p,
 .markdown-previewer-text p,
 .quote-machine-text p,
@@ -616,6 +663,8 @@ body {
   color: black;
 }
 
+.todo-button-a,
+.todo-button-b,
 .drum-machine-button-a,
 .drum-machine-button-b,
 .markdown-previewer-button-a,
@@ -649,6 +698,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+.todo-text a,
 .drum-machine-text a,
 .markdown-previewer-text a,
 .quote-machine-text a,
@@ -664,6 +714,7 @@ body {
   color: black;
 }
 
+.todo-text ul,
 .drum-machine-text ul,
 .markdown-previewer-text ul,
 .quote-machine-text ul,
@@ -891,6 +942,7 @@ form button {
     margin-right: 20px;
   }
 
+  .todo,
   .drum-machine,
   .markdown-previewer,
   .quote-machine,
@@ -907,6 +959,7 @@ form button {
     padding-right: 10px;
   }
 
+  .todo-text,
   .drum-machine-text,
   .markdown-previewer-text,
   .quote-machine-text,
@@ -922,6 +975,7 @@ form button {
     padding-left: 20px;
   }
 
+  .todo-text h3
   .drum-machine-text h3,
   .markdown-previewer-text h3,
   .quote-machine-text h3,
@@ -936,7 +990,8 @@ form button {
     font-size: 20px;
   }
 
-  .drum-machine-img img,
+.todo-img img,
+.drum-machine-img img,
 .markdown-previewer-img img,
 .quote-machine-img img,
 .jumpstart-img img,
@@ -949,7 +1004,8 @@ form button {
 {
     margin-left: 30px;
 }
-
+ 
+  .todo-text p,
   .drum-machine-text p,
   .markdown-previewer-text p,
   .quote-machine-text p,
@@ -964,6 +1020,8 @@ form button {
     font-size: 18px;
   }
 
+  .todo-button-a,
+  .todo-button-b,
   .drum-machine-button-a,
   .drum-machine-button-b,
   .markdown-previewer-button-a,
@@ -988,6 +1046,7 @@ form button {
     font-size: 15px;
   }
 
+  .todo-text li,
   .drum-machine-text li,
   .markdown-previewer-text li,
   .quote-machine-text li,
@@ -1039,6 +1098,7 @@ form button {
 }
 
 @media only screen and (max-width: 350px) {
+  .todo-img img,
   .drum-machine-img img,
   .markdown-previewer-img img,
   .quote-machine-img img,
