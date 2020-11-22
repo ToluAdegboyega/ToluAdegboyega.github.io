@@ -216,8 +216,14 @@ body {
 
 .main-skills i {
     color: white;
-  font-size: 80px;
-  margin-bottom: 25px;
+    font-size: 80px;
+    margin-bottom: 25px;
+}
+
+.iconify  {
+    color: white;
+    font-size: 80px;
+    margin-bottom: 25px;
 }
 
 
