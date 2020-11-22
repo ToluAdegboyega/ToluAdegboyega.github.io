@@ -353,6 +353,47 @@ body {
   margin: 5px;
 }
 
+.github-profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgba(24, 73, 209, 0.842);
+}
+
+.github-profile-text h3 {
+    color:  rgba(24, 73, 209, 0.842);
+    font-size: 30px;
+}
+
+.github-profile-button-a:hover,
+.github-profile-button-a:focus {
+  background:rgba(24, 73, 209, 0.842);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.github-profile-button-b:hover,
+.github-profile-button-b:focus {
+  background:rgba(24, 73, 209, 0.842);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.github-profile-text li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  color: black;
+  border: 2px solid rgba(24, 73, 209, 0.842);
+  margin: 5px;
+}
+
 .jumpstart {
   width: 100%;
   display: flex;
@@ -637,6 +678,7 @@ body {
 .drum-machine-img img,
 .markdown-previewer-img img,
 .quote-machine-img img,
+.github-profile-img img,
 .jumpstart-img img,
 .style-conference-img img,
 .tribute-img img,
@@ -652,6 +694,7 @@ body {
 .drum-machine-text p,
 .markdown-previewer-text p,
 .quote-machine-text p,
+.github-profile-text p,
 .jumpstart-text p,
 .style-conference-text p,
 .tribute-text p,
@@ -671,6 +714,8 @@ body {
 .markdown-previewer-button-b,
 .quote-machine-button-a,
 .quote-machine-button-b,
+.github-profile-button-a,
+.github-profile-button-b,
 .jumpstart-button-a,
 .jumpstart-button-b,
 .style-conference-button-a,
@@ -702,6 +747,7 @@ body {
 .drum-machine-text a,
 .markdown-previewer-text a,
 .quote-machine-text a,
+.github-profile-text a,
 .jumpstart-text a,
 .style-conference-text a,
 .tribute-text a,
@@ -718,6 +764,7 @@ body {
 .drum-machine-text ul,
 .markdown-previewer-text ul,
 .quote-machine-text ul,
+.github-profile-text  ul,
 .jumpstart-text ul,
 .style-conference-text ul,
 .tribute-text ul,
@@ -946,6 +993,7 @@ form button {
   .drum-machine,
   .markdown-previewer,
   .quote-machine,
+  .github-profile,
   .jumpstart,
   .style-conference,
   .tribute,
@@ -963,6 +1011,7 @@ form button {
   .drum-machine-text,
   .markdown-previewer-text,
   .quote-machine-text,
+  .github-profile-text,
   .jumpstart-text,
   .style-conference-text,
   .tribute-text,
@@ -979,6 +1028,7 @@ form button {
   .drum-machine-text h3,
   .markdown-previewer-text h3,
   .quote-machine-text h3,
+  .github-profile-text  h3,
   .jumpstart-text h3,
   .style-conference-text h3,
   .tribute-text h3,
@@ -994,6 +1044,7 @@ form button {
 .drum-machine-img img,
 .markdown-previewer-img img,
 .quote-machine-img img,
+.github-profile-img img,
 .jumpstart-img img,
 .style-conference-img img,
 .tribute-img img,
@@ -1009,6 +1060,7 @@ form button {
   .drum-machine-text p,
   .markdown-previewer-text p,
   .quote-machine-text p,
+  .github-profile-text  p,
   .jumpstart-text p,
   .style-conference-text p,
   .tribute-text p,
@@ -1028,6 +1080,8 @@ form button {
   .markdown-previewer-button-b,
   .quote-machine-button-a,
   .quote-machine-button-b,
+  .github-profile-button-a,
+  .github-profile-button-b,
   .jumpstart-button-a,
   .jumpstart-button-b,
   .style-conference-button-a,
@@ -1050,6 +1104,7 @@ form button {
   .drum-machine-text li,
   .markdown-previewer-text li,
   .quote-machine-text li,
+  .github-profile-text  li,
   .jumpstart-text li,
   .style-conference-text li,
   .tribute-text li,
@@ -1102,6 +1157,7 @@ form button {
   .drum-machine-img img,
   .markdown-previewer-img img,
   .quote-machine-img img,
+  .github-profile-img img,
   .jumpstart-img img,
   .style-conference-img img,
   .tribute-img img,
