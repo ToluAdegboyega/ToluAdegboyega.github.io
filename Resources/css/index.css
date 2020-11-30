@@ -188,6 +188,23 @@ body {
   padding-right: 200px;
 }
 
+.more {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #66023c;
+}
+
+.more a{
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-decoration: none;
+  font-size: 25px;
+}
+
 .todo {
   width: 100%;
   display: flex;
@@ -435,259 +452,16 @@ body {
   margin: 5px;
 }
 
-.style-conference {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-bottom: 80px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid rgba(238, 66, 102, 0.5);
-}
 
-.style-conference-text h3 {
-  color: rgba(211, 17, 59, 0.5);
-  font-size: 30px;
-}
-
-.style-conference-button-a:hover,
-.style-conference-button-a:focus {
-  background: rgba(211, 17, 59, 0.5);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.style-conference-button-b:hover,
-.style-conference-button-b:focus {
-  background: rgba(211, 17, 59, 0.5);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.style-conference-text li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 20px;
-  padding: 5px;
-  color: black;
-  border: 2px solid rgba(211, 17, 59, 0.5);
-  margin: 5px;
-}
-
-.tribute {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-bottom: 80px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid rgba(49, 208, 211, 0.5);
-}
-
-.tribute-text h3 {
-  color: rgba(38, 166, 168, 0.5);
-  font-size: 30px;
-}
-
-.tribute-button-a:hover,
-.tribute-button-a:focus {
-  background: rgba(56, 210, 213, 0.5);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.tribute-button-b:hover,
-.tribute-button-b:focus {
-  background: rgba(56, 210, 213, 0.5);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.tribute-text li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 20px;
-  padding: 5px;
-  color: black;
-  border: 2px solid rgba(56, 210, 213, 0.5);
-  margin: 5px;
-}
-
-.survey-form {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-bottom: 80px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid rgba(246, 255, 75, 0.65);
-}
-
-.survey-form-text h3 {
-  color: rgba(239, 250, 41, 0.65);
-  font-size: 30px;
-}
-
-.survey-form-button-a:hover,
-.survey-form-button-a:focus {
-  background: rgba(246, 255, 75, 0.65);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.survey-form-button-b:hover,
-.survey-form-button-b:focus {
-  background: rgba(246, 255, 75, 0.65);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.survey-form-text li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 20px;
-  padding: 5px;
-  color: black;
-  border: 2px solid rgba(246, 255, 75, 0.65);
-  margin: 5px;
-}
-
-.product-landing {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-bottom: 80px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid rgba(233, 100, 23, 0.65);
-}
-
-.product-landing h3 {
-  color: rgba(233, 100, 23, 0.65);
-  font-size: 30px;
-}
-
-.product-button-a:hover,
-.product-button-a:focus {
-  background: rgba(233, 100, 23, 0.65);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.product-button-b:hover,
-.product-button-b:focus {
-  background: rgba(233, 100, 23, 0.65);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.product-landing-text li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 20px;
-  padding: 5px;
-  color: black;
-  border: 2px solid rgba(233, 100, 23, 0.65);
-  margin: 5px;
-}
-
-.tech-page {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-bottom: 80px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid rgba(75, 102, 255, 0.65);
-}
-
-.tech-page-text h3 {
-  color: rgba(75, 102, 255, 0.65);
-  font-size: 30px;
-}
-
-.tech-page-button-a:hover,
-.tech-page-button-a:focus {
-  background: rgba(75, 102, 255, 0.65);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.tech-page-button-b:hover,
-.tech-page-button-b:focus {
-  background: rgba(75, 102, 255, 0.65);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.tech-page-text li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 20px;
-  padding: 5px;
-  color: black;
-  border: 2px solid rgba(75, 102, 255, 0.65);
-  margin: 5px;
-}
-
-.port-page {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-bottom: 80px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid rgba(238, 66, 102, 0.5);
-}
-
-.port-page-text h3 {
-  color: rgba(211, 17, 59, 0.5);
-  font-size: 30px;
-}
-
-.port-page-button-b:hover,
-.port-page-button-b:focus {
-  background: rgba(211, 17, 59, 0.5);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.port-page-text li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 20px;
-  padding: 5px;
-  color: black;
-  border: 2px solid rgba(211, 17, 59, 0.5);
-  margin: 5px;
-}
 
 .todo-img img,
 .drum-machine-img img,
 .markdown-previewer-img img,
 .quote-machine-img img,
 .github-profile-img img,
-.jumpstart-img img,
-.style-conference-img img,
-.tribute-img img,
-.survey-img img,
-.product-landing-img img,
-.tech-page-img img,
-.port-page-img img
+.jumpstart-img img
 {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .todo-text p,
@@ -695,13 +469,8 @@ body {
 .markdown-previewer-text p,
 .quote-machine-text p,
 .github-profile-text p,
-.jumpstart-text p,
-.style-conference-text p,
-.tribute-text p,
-.survey-form-text p,
-.product-landing-text p,
-.tech-page-text p,
-.port-page-text p {
+.jumpstart-text p
+ {
   font-size: 20px;
   color: black;
 }
@@ -717,19 +486,7 @@ body {
 .github-profile-button-a,
 .github-profile-button-b,
 .jumpstart-button-a,
-.jumpstart-button-b,
-.style-conference-button-a,
-.style-conference-button-b,
-.tribute-button-a,
-.tribute-button-b,
-.survey-form-button-a,
-.survey-form-button-b,
-.product-button-a,
-.product-button-b,
-.tech-page-button-a,
-.tech-page-button-b,
-.port-page-button-a,
-.port-page-button-b
+.jumpstart-button-b
 {
   margin-top: 20px;
   padding: 5px 10px;
@@ -748,13 +505,7 @@ body {
 .markdown-previewer-text a,
 .quote-machine-text a,
 .github-profile-text a,
-.jumpstart-text a,
-.style-conference-text a,
-.tribute-text a,
-.survey-form-text a,
-.product-landing-text a,
-.tech-page-text a,
-.port-page-text a
+.jumpstart-text a
 {
   text-decoration: none;
   color: black;
@@ -765,13 +516,7 @@ body {
 .markdown-previewer-text ul,
 .quote-machine-text ul,
 .github-profile-text  ul,
-.jumpstart-text ul,
-.style-conference-text ul,
-.tribute-text ul,
-.survey-form-text ul,
-.product-landing-text ul,
-.tech-page-text ul,
-.port-page-text ul
+.jumpstart-text ul
 {
   padding-left: 0px;
 }
@@ -994,13 +739,8 @@ form button {
   .markdown-previewer,
   .quote-machine,
   .github-profile,
-  .jumpstart,
-  .style-conference,
-  .tribute,
-  .survey-form,
-  .product-landing,
-  .tech-page,
-  .port-page {
+  .jumpstart
+  {
     display: flex;
     flex-direction: column;
     padding-left: 10px;
@@ -1012,13 +752,7 @@ form button {
   .markdown-previewer-text,
   .quote-machine-text,
   .github-profile-text,
-  .jumpstart-text,
-  .style-conference-text,
-  .tribute-text,
-  .survey-form-text,
-  .product-landing-text,
-  .tech-page-text,
-  .port-page-text
+  .jumpstart-text
    {
     padding-right: 20px;
     padding-left: 20px;
@@ -1029,13 +763,7 @@ form button {
   .markdown-previewer-text h3,
   .quote-machine-text h3,
   .github-profile-text  h3,
-  .jumpstart-text h3,
-  .style-conference-text h3,
-  .tribute-text h3,
-  .survey-form-text h3,
-  .product-landing-text h3,
-  .tech-page-text h3,
-  .port-page-text h3
+  .jumpstart-text h3
   {
     font-size: 20px;
   }
@@ -1045,15 +773,9 @@ form button {
 .markdown-previewer-img img,
 .quote-machine-img img,
 .github-profile-img img,
-.jumpstart-img img,
-.style-conference-img img,
-.tribute-img img,
-.survey-img img,
-.product-landing-img img,
-.tech-page-img img,
-.port-page-img img
+.jumpstart-img img
 {
-    margin-left: 30px;
+  margin-left: 30px;
 }
  
   .todo-text p,
@@ -1061,13 +783,7 @@ form button {
   .markdown-previewer-text p,
   .quote-machine-text p,
   .github-profile-text  p,
-  .jumpstart-text p,
-  .style-conference-text p,
-  .tribute-text p,
-  .survey-form-text p,
-  .product-landing-text p,
-  .tech-page-text p,
-  .port-page-text p
+  .jumpstart-text p
   {
     font-size: 18px;
   }
@@ -1083,19 +799,7 @@ form button {
   .github-profile-button-a,
   .github-profile-button-b,
   .jumpstart-button-a,
-  .jumpstart-button-b,
-  .style-conference-button-a,
-  .style-conference-button-b,
-  .tribute-button-a,
-  .tribute-button-b,
-  .survey-form-button-a,
-  .survey-form-button-b,
-  .product-button-a,
-  .product-button-b,
-  .tech-page-button-a,
-  .tech-page-button-b,
-  .port-page-button-a,
-  .port-page-button-b
+  .jumpstart-button-b
   {
     font-size: 15px;
   }
@@ -1105,13 +809,8 @@ form button {
   .markdown-previewer-text li,
   .quote-machine-text li,
   .github-profile-text  li,
-  .jumpstart-text li,
-  .style-conference-text li,
-  .tribute-text li,
-  .survey-form-text li,
-  .product-landing-text li,
-  .tech-page-text li,
-  .port-page-text li {
+  .jumpstart-text li
+  {
     font-size: 15px;
   }
 
