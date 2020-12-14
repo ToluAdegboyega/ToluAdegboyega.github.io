@@ -114,6 +114,47 @@ body {
     padding-right: 200px;
 }
 
+.jumpstart {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgba(4, 207, 113, 0.925);
+}
+
+.jumpstart-text h3 {
+  color: rgba(4, 207, 113, 0.925);
+  font-size: 30px;
+}
+
+.jumpstart-button-a:hover,
+.jumpstart-button-a:focus {
+  background: rgba(4, 207, 113, 0.925);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.jumpstart-button-b:hover,
+.jumpstart-button-b:focus {
+  background: rgba(4, 207, 113, 0.925);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.jumpstart-text li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  color: black;
+  border: 2px solid rgba(4, 207, 113, 0.925);
+  margin: 5px;
+}
+
 .style-conference {
     width: 100%;
     display: flex;
@@ -353,6 +394,7 @@ body {
     margin: 5px;
 }
 
+.jumpstart-img img,
 .style-conference-img img,
 .tribute-img img,
 .survey-img img,
@@ -363,6 +405,7 @@ body {
     margin-right: 30px;
 }
 
+.jumpstart-text p,
 .style-conference-text p,
 .tribute-text p,
 .survey-form-text p,
@@ -373,6 +416,8 @@ body {
   color: black;
 }
 
+.jumpstart-button-a,
+.jumpstart-button-b,
 .style-conference-button-a,
 .style-conference-button-b,
 .tribute-button-a,
@@ -398,6 +443,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+.jumpstart-text a,
 .style-conference-text a,
 .tribute-text a,
 .survey-form-text a,
@@ -409,6 +455,7 @@ body {
   color: black;
 }
 
+.jumpstart-text ul,
 .style-conference-text ul,
 .tribute-text ul,
 .survey-form-text ul,
@@ -474,7 +521,8 @@ body {
         margin-right: 20px;
     }
 
-    .style-conference,
+  .jumpstart,
+  .style-conference,
   .tribute,
   .survey-form,
   .product-landing,
@@ -486,6 +534,7 @@ body {
     padding-right: 10px;
   }
 
+  .jumpstart-text,
   .style-conference-text,
   .tribute-text,
   .survey-form-text,
@@ -497,6 +546,7 @@ body {
     padding-left: 20px;
   }
 
+  .jumpstart-text h3,
   .style-conference-text h3,
   .tribute-text h3,
   .survey-form-text h3,
@@ -507,26 +557,30 @@ body {
     font-size: 20px;
   }
 
+  .jumpstart-img img,
   .style-conference-img img,
     .tribute-img img,
     .survey-img img,
     .product-landing-img img,
     .tech-page-img img,
     .port-page-img img
-    {
-        margin-left: 30px;
-    }
+  {
+    margin-left: 30px;
+  }
 
-    .style-conference-text p,
-    .tribute-text p,
-    .survey-form-text p,
-    .product-landing-text p,
-    .tech-page-text p,
-    .port-page-text p
-    {
-        font-size: 18px;
-    }
+  .jumpstart-text p,
+  .style-conference-text p,
+  .tribute-text p,
+  .survey-form-text p,
+  .product-landing-text p,
+  .tech-page-text p,
+  .port-page-text p
+  {
+      font-size: 18px;
+  }
 
+    .jumpstart-button-a,
+    .jumpstart-button-b,
     .style-conference-button-a,
     .style-conference-button-b,
     .tribute-button-a,
@@ -540,10 +594,11 @@ body {
     .port-page-button-a,
     .port-page-button-b
     {
-        font-size: 15px;
+      font-size: 15px;
     }
 
-    .style-conference-text li,
+  .jumpstart-text li,
+  .style-conference-text li,
   .tribute-text li,
   .survey-form-text li,
   .product-landing-text li,
@@ -555,6 +610,7 @@ body {
 }
 
 @media only screen and (max-width: 350px) {
+  .jumpstart-img img,
     .style-conference-img img,
     .tribute-img img,
     .survey-img img,
