@@ -1,2 +1,2 @@
 # ToluAdegboyega.github.io
-Creating a portfolio with skills learnt so far.
+Creating my portfolio with skills learnt so far.
