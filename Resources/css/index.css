@@ -8,7 +8,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow-x: hidden ;
 }
 
 .main-header {
@@ -74,14 +73,11 @@ body {
   background-size: cover;
   width: auto;
   min-height: 100vh;
-  /*min-height: 650px;*/
-  margin-left: -8px;
-  margin-right: -8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .main-body {
@@ -89,6 +85,12 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.main-body p {
+  margin: 0 10px;
 }
 
 .down-arrow {
@@ -98,8 +100,7 @@ body {
   justify-content: center;
   font-size: 60px;
   color: #b768a2;
-  height: 200px;
-  padding-bottom: 20px;
+  padding-top: 3rem;
 }
 
 .down-arrow a {
@@ -121,12 +122,14 @@ body {
 }
 
 .social-media {
-  text-align: center;
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.social-media ul {
-  list-style-type: none;
-  padding: 10px 40px 10px 40px;
+.social-media-each {
+  margin-top: 10px;
 }
 
 .social-media a {
@@ -145,10 +148,6 @@ body {
   -ms-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-}
-
-.social-media li {
-  display: inline;
 }
 
 .social-media a:hover {
@@ -174,7 +173,6 @@ body {
   margin-bottom: 16px;
   color: #b768a2;
   text-align: left;
-  padding-left: 50px;
   margin-left: 20px;
   font-family: inherit;
 }
@@ -184,9 +182,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 20px 0 20px;
-  padding-left: 200px;
-  padding-right: 200px;
+  margin: 0 20px;
 }
 
 .more {
@@ -196,10 +192,34 @@ body {
   background-color: #66023c;
 }
 
-.more a{
-  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  color:transparent;
+.more a {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0, #f22),
+    color-stop(0.15, #f2f),
+    color-stop(0.3, #22f),
+    color-stop(0.45, #2ff),
+    color-stop(0.6, #2f2),
+    color-stop(0.75, #2f2),
+    color-stop(0.9, #ff2),
+    color-stop(1, #f22)
+  );
+  background-image: gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0, #f22),
+    color-stop(0.15, #f2f),
+    color-stop(0.3, #22f),
+    color-stop(0.45, #2ff),
+    color-stop(0.6, #2f2),
+    color-stop(0.75, #2f2),
+    color-stop(0.9, #ff2),
+    color-stop(1, #f22)
+  );
+  color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   text-decoration: none;
@@ -207,7 +227,6 @@ body {
 }
 
 .movie {
-  width: 100%;
   display: flex;
   align-items: center;
   padding-bottom: 80px;
@@ -219,7 +238,7 @@ body {
 }
 
 .movie-text h3 {
-  color:rgba(255, 125, 19, 0.925);
+  color: rgba(255, 125, 19, 0.925);
   font-size: 30px;
 }
 
@@ -238,17 +257,16 @@ body {
 }
 
 .movie-text li {
-    list-style-type: none;
-    display: inline-block;
-    font-size: 20px;
-    padding: 5px;
-    color: black;
-    border: 2px solid rgba(255, 125, 19, 0.925);
-    margin: 5px;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  color: black;
+  border: 2px solid rgba(255, 125, 19, 0.925);
+  margin: 5px;
 }
 
 .todo {
-  width: 100%;
   display: flex;
   align-items: center;
   padding-bottom: 80px;
@@ -273,23 +291,22 @@ body {
 
 .todo-button-b:hover,
 .todo-button-b:focus {
-  background:rgba(255, 19, 117, 0.925);
+  background: rgba(255, 19, 117, 0.925);
   -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
 }
 
 .todo-text li {
-    list-style-type: none;
-    display: inline-block;
-    font-size: 20px;
-    padding: 5px;
-    color: black;
-    border: 2px solid rgba(255, 19, 117, 0.925);
-    margin: 5px;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  color: black;
+  border: 2px solid rgba(255, 19, 117, 0.925);
+  margin: 5px;
 }
 
 .drum-machine {
-  width: 100%;
   display: flex;
   align-items: center;
   padding-bottom: 80px;
@@ -320,17 +337,16 @@ body {
 }
 
 .drum-machine-text li {
-    list-style-type: none;
-    display: inline-block;
-    font-size: 20px;
-    padding: 5px;
-    color: black;
-    border: 2px solid rgba(255, 200, 19, 0.925);
-    margin: 5px;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  color: black;
+  border: 2px solid rgba(255, 200, 19, 0.925);
+  margin: 5px;
 }
 
 .markdown-previewer {
-  width: 100%;
   display: flex;
   align-items: center;
   padding-bottom: 80px;
@@ -342,8 +358,8 @@ body {
 }
 
 .markdown-previewer-text h3 {
-    color: rgba(9, 126, 116, 0.5);
-    font-size: 30px;
+  color: rgba(9, 126, 116, 0.5);
+  font-size: 30px;
 }
 
 .markdown-previewer-button-a:hover,
@@ -361,18 +377,16 @@ body {
 }
 
 .markdown-previewer-text li {
-    list-style-type: none;
-    display: inline-block;
-    font-size: 20px;
-    padding: 5px;
-    color: black;
-    border: 2px solid rgba(9, 126, 116, 0.5);
-    margin: 5px;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  color: black;
+  border: 2px solid rgba(9, 126, 116, 0.5);
+  margin: 5px;
 }
 
-
 .quote-machine {
-  width: 100%;
   display: flex;
   align-items: center;
   padding-bottom: 80px;
@@ -384,8 +398,8 @@ body {
 }
 
 .quote-machine-text h3 {
-    color: rgba(209, 52, 24, 0.842);
-    font-size: 30px;
+  color: rgba(209, 52, 24, 0.842);
+  font-size: 30px;
 }
 
 .quote-machine-button-a:hover,
@@ -413,7 +427,6 @@ body {
 }
 
 .github-profile {
-  width: 100%;
   display: flex;
   align-items: center;
   padding-bottom: 80px;
@@ -425,20 +438,20 @@ body {
 }
 
 .github-profile-text h3 {
-    color:  rgba(24, 73, 209, 0.842);
-    font-size: 30px;
+  color: rgba(24, 73, 209, 0.842);
+  font-size: 30px;
 }
 
 .github-profile-button-a:hover,
 .github-profile-button-a:focus {
-  background:rgba(24, 73, 209, 0.842);
+  background: rgba(24, 73, 209, 0.842);
   -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
 }
 
 .github-profile-button-b:hover,
 .github-profile-button-b:focus {
-  background:rgba(24, 73, 209, 0.842);
+  background: rgba(24, 73, 209, 0.842);
   -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
 }
@@ -453,13 +466,12 @@ body {
   margin: 5px;
 }
 
-.movie-img  img,
+.movie-img img,
 .todo-img img,
 .drum-machine-img img,
 .markdown-previewer-img img,
 .quote-machine-img img,
-.github-profile-img img
-{
+.github-profile-img img {
   margin-right: 30px;
 }
 
@@ -468,8 +480,7 @@ body {
 .drum-machine-text p,
 .markdown-previewer-text p,
 .quote-machine-text p,
-.github-profile-text p
- {
+.github-profile-text p {
   font-size: 20px;
   color: black;
 }
@@ -485,8 +496,7 @@ body {
 .quote-machine-button-a,
 .quote-machine-button-b,
 .github-profile-button-a,
-.github-profile-button-b
-{
+.github-profile-button-b {
   margin-top: 20px;
   padding: 5px 10px;
   border: none;
@@ -504,8 +514,7 @@ body {
 .drum-machine-text a,
 .markdown-previewer-text a,
 .quote-machine-text a,
-.github-profile-text a
-{
+.github-profile-text a {
   text-decoration: none;
   color: black;
 }
@@ -515,11 +524,9 @@ body {
 .drum-machine-text ul,
 .markdown-previewer-text ul,
 .quote-machine-text ul,
-.github-profile-text  ul
-{
+.github-profile-text ul {
   padding-left: 0px;
 }
-
 
 .nav-bar .icon {
   display: none;
@@ -596,8 +603,6 @@ form button {
 
 .footer {
   background-color: whitesmoke;
-  margin-left: -8px;
-  margin-right: -8px;
   margin-bottom: -8px;
 }
 
@@ -633,7 +638,7 @@ form button {
   }
 
   .main-body {
-    padding-top: 80px;
+    padding-top: 8rem;
   }
 
   .main-body h1 {
@@ -655,10 +660,7 @@ form button {
   .social-media {
     padding-left: 20px;
     padding-right: 20px;
-  }
-
-  .fa-twitter {
-    display: none;
+    margin-top: 30px;
   }
 
   .down-arrow {
@@ -667,6 +669,7 @@ form button {
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+    padding-top: 8rem;
   }
 
   .nav-bar a:not(:first-child) {
@@ -732,14 +735,13 @@ form button {
     margin-left: 20px;
     margin-right: 20px;
   }
-  
+
   .movie,
   .todo,
   .drum-machine,
   .markdown-previewer,
   .quote-machine,
-  .github-profile
-  {
+  .github-profile {
     display: flex;
     flex-direction: column;
     padding-left: 10px;
@@ -751,8 +753,7 @@ form button {
   .drum-machine-text,
   .markdown-previewer-text,
   .quote-machine-text,
-  .github-profile-text
-   {
+  .github-profile-text {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -762,28 +763,25 @@ form button {
   .drum-machine-text h3,
   .markdown-previewer-text h3,
   .quote-machine-text h3,
-  .github-profile-text  h3
-  {
+  .github-profile-text h3 {
     font-size: 20px;
   }
 
-.movie-img img,
-.todo-img img,
-.drum-machine-img img,
-.markdown-previewer-img img,
-.quote-machine-img img,
-.github-profile-img img
-{
-  margin-left: 30px;
-}
-  
+  .movie-img img,
+  .todo-img img,
+  .drum-machine-img img,
+  .markdown-previewer-img img,
+  .quote-machine-img img,
+  .github-profile-img img {
+    margin-right: 0px;
+  }
+
   .movie-text p,
   .todo-text p,
   .drum-machine-text p,
   .markdown-previewer-text p,
   .quote-machine-text p,
-  .github-profile-text  p
-  {
+  .github-profile-text p {
     font-size: 18px;
   }
 
@@ -798,8 +796,7 @@ form button {
   .quote-machine-button-a,
   .quote-machine-button-b,
   .github-profile-button-a,
-  .github-profile-button-b
-  {
+  .github-profile-button-b {
     font-size: 15px;
   }
 
@@ -808,12 +805,10 @@ form button {
   .drum-machine-text li,
   .markdown-previewer-text li,
   .quote-machine-text li,
-  .github-profile-text  li
-  {
+  .github-profile-text li {
     font-size: 15px;
   }
 
-  
   .main-contact {
     padding: 10px 25px 10px 25px;
   }
@@ -850,14 +845,23 @@ form button {
   }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 409px) {
+  .main-body {
+    padding-top: 5rem;
+  }
+
+  .down-arrow {
+    padding-top: 6rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
   .movie-img img,
   .todo-img img,
   .drum-machine-img img,
   .markdown-previewer-img img,
   .quote-machine-img img,
-  .github-profile-img img
- {
+  .github-profile-img img {
     width: 250px;
   }
 }
