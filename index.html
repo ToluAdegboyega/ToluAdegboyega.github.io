@@ -34,7 +34,7 @@
     <div id="loader"></div>
 
     <div id="myDiv">
-        <header class="main-header" data-aos="fade-right">
+        <header class="main-header" data-aos="fade-down" data-aos-duration="2500">
             <nav class="nav-bar" id="my-navbar">
                 <a class="home-page" href="/"> Tolu. </a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -47,7 +47,7 @@
         </header> 
     
         <main class="main">
-            <div class="main-body" data-aos="fade-right">
+            <div class="main-body" data-aos="fade-right" data-aos-duration="1000">
                 <h1>
                     <div id="name-carousel">
                         <span> Hello, I'm Tolu.</span>
@@ -73,16 +73,16 @@
                     </div>
                 </div>
             </div>
-            <div class="down-arrow"  data-aos="fade-right">
+            <div class="down-arrow"  data-aos="fade-right" data-aos-duration="1000">
                 <a href="#projects" class="fas fa-chevron-down"> </a>
             </div>
         </main>
     
         <section id="projects">
-            <h2 data-aos="fade-up"> Some projects I have worked on: </h2>
+            <h2 data-aos="fade-up" data-aos-duration="1000"> Some projects I have worked on: </h2>
     
             <div class="main-project">
-                <div class="movie"  data-aos="fade-up">
+                <div class="movie"  data-aos="fade-up" data-aos-duration="1000">
                     <div class="movie-img">
                         <img src="Resources/images/rsz_1screenshot_6105.png" alt="A screenshot of movie diary."></img>
                     </div>
@@ -112,7 +112,7 @@
                     </div>
                 </div> 
     
-                <div class="todo"  data-aos="fade-up">
+                <div class="todo"  data-aos="fade-up" data-aos-duration="1000">
                     <div class="todo-img">
                         <img src="Resources/images/rsz_screenshot_6004.png" alt="A screenshot of To-Do app."></img>
                     </div>
@@ -141,7 +141,7 @@
                     </div>
                 </div>
     
-                <div class="drum-machine"  data-aos="fade-up">
+                <div class="drum-machine"  data-aos="fade-up" data-aos-duration="1000">
                     <div class="drum-machine-img">
                         <img src="Resources/images/rsz_rsz_screenshot_5881.jpg" alt="A screenshot of Drum Machine page."></img>
                     </div>
@@ -170,7 +170,7 @@
                     </div>
                 </div>
     
-                <div class="markdown-previewer"  data-aos="fade-up">
+                <div class="markdown-previewer"  data-aos="fade-up" data-aos-duration="3000">
                     <div class="markdown-previewer-img">
                         <img src="Resources/images/rsz_rsz_screenshot_5766.jpg" alt="A screenshot of Markdown Previewer page."></img>
                     </div>
@@ -198,7 +198,7 @@
                     </div>
                 </div>
     
-                <div class="quote-machine"  data-aos="fade-up">
+                <div class="quote-machine"  data-aos="fade-up" data-aos-duration="1000">
                     <div class="quote-machine-img">
                         <img src="Resources/images/rsz_rsz_screenshot_5763.jpg" alt="A screenshot of Random Quote Machine page."></img>
                     </div>
@@ -234,7 +234,7 @@
                     </div>
                 </div> 
     
-                <div class="github-profile"  data-aos="fade-up">
+                <div class="github-profile"  data-aos="fade-up" data-aos-duration="1000">
                     <div class="github-profile-img">
                         <img src="Resources/images/rsz_screenshot_6030.png" alt="A screenshot of Github Profile page."></img>
                     </div>
@@ -329,9 +329,7 @@
         });
     </script>
     <script>
-        AOS.init({
-            duration: 800,
-        });
+        AOS.init();
     </script>
      <script>
         function myFunction() {
