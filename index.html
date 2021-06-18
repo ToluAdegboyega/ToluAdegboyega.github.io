@@ -34,7 +34,7 @@
     <div id="loader"></div>
 
     <div id="myDiv">
-        <header class="main-header">
+        <header class="main-header" data-aos="fade-right">
             <nav class="nav-bar" id="my-navbar">
                 <a class="home-page" href="/"> Tolu. </a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -46,8 +46,8 @@
             </nav>
         </header> 
     
-        <main class="main">
-            <div class="main-body" data-aos="fade-right">
+        <main class="main" data-aos="fade-right">
+            <div class="main-body">
                 <h1>
                     <div id="name-carousel">
                         <span> Hello, I'm Tolu.</span>
@@ -347,11 +347,11 @@
     <script>
         document.onreadystatechange = function() {
         if (document.readyState !== "complete") {
-            document.querySelector("#myDiv").style.visibility = "hidden";
+            document.querySelector("body").style.visibility = "hidden";
             document.querySelector("#loader").style.visibility = "visible";
         } else {
             document.querySelector("#loader").style.display = "none";
-            document.querySelector("#myDiv").style.visibility = "visible";
+            document.querySelector("body").style.visibility = "visible";
         }
         };
     </script>
