@@ -384,6 +384,16 @@ body {
   margin: 5px;
 }
 
+.jumpstart,
+.style-conference,
+.tribute,
+.survey-form,
+.product-landing,
+.tech-page,
+.port-page {
+  width: 90%;
+}
+
 .jumpstart-img img,
 .style-conference-img img,
 .tribute-img img,
