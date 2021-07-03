@@ -1,6 +1,5 @@
-
-var typed = new Typed('#typed', {
-  stringsElement: '#name-carousel',
+var typed = new Typed("#typed", {
+  stringsElement: "#name-carousel",
   startDelay: 2000,
   loop: false,
   typeSpeed: 39,
