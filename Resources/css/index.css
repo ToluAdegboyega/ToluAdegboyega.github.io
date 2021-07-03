@@ -196,18 +196,18 @@ body {
 }
 
 #projects {
-  padding-top: 120px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
-#projects h2 {
+#projects h1 {
   font-size: 30px;
+  padding-top: 30px;
   margin-top: 16px;
   margin-bottom: 16px;
-  color: #b768a2;
-  text-align: left;
-  margin-left: 50px;
-  font-family: inherit;
+  color: #66023c;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .main-project {
@@ -215,7 +215,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 20px;
+  margin: 50px 20px;
 }
 
 .more {
@@ -819,14 +819,6 @@ form button {
     padding-top: 60px;
   }
 
-  #projects h2 {
-    font-size: 25px;
-    text-align: center;
-    margin-left: 0px;
-    padding-left: 0px;
-    padding-bottom: 20px;
-  }
-
   .main-project {
     padding-left: 20px;
     padding-right: 20px;
@@ -953,7 +945,7 @@ form button {
 
 @media only screen and (max-width: 409px) {
   .main-body {
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
 
   .down-arrow {
@@ -970,5 +962,169 @@ form button {
   .quote-machine-img img,
   .github-profile-img img {
     width: 250px;
+  }
+}
+
+#about {
+  width: 100%;
+}
+
+.some-quote {
+  width: auto;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.some-quote p {
+  font-size: 400;
+  font-size: 30px;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.about-me {
+  margin-bottom: 100px;
+}
+
+.main-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 0 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+}
+
+.main-about-text {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 1;
+}
+
+.resume-button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background: #f1f2f4;
+  font-size: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.resume-button:hover,
+.resume-button:focus {
+  background: rgba(211, 17, 59, 0.5);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.resume-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.about-img img {
+  border-radius: 50%;
+}
+
+.skills {
+  padding: 80px 200px 80px 200px;
+  margin-bottom: 100px;
+}
+
+.skills h1 {
+  font-size: 30px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: #66023c;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-skills {
+  background-color: #66023c;
+  padding: 60px;
+  margin-top: 50px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.main-skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 0;
+}
+
+.main-skills li {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-skills i {
+  color: white;
+  font-size: 80px;
+  margin-bottom: 25px;
+}
+
+.iconify {
+  color: white;
+  font-size: 80px;
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+  .some-quote p {
+    font-size: 400;
+    font-size: 20px;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+
+  .main-about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 100px;
+  }
+
+  .main-about-text {
+    display: flex;
+    align-items: center;
+    padding: 30px 15px 15px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .skills {
+    padding: 20px;
+  }
+
+  .about-img img {
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
