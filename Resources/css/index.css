@@ -734,6 +734,17 @@ form button {
     justify-content: center;
   }
 
+  .down-arrow a {
+    text-decoration: none;
+    color: #b768a2;
+    width: 15px;
+    height: 15px;
+    border: 5px solid #b768a2;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(45deg);
+  }
+
   .nav-bar a:not(:first-child) {
     display: none;
     font-size: 20px;
