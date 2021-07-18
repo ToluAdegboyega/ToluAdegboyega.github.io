@@ -95,10 +95,10 @@ body {
 
 .down-arrow a {
   text-decoration: none;
-  color: #b768a2;
+  color: #66023c;
   width: 30px;
   height: 30px;
-  border: 10px solid #b768a2;
+  border: 10px solid #66023c;
   border-left: 0;
   border-top: 0;
   transform: rotate(45deg);
@@ -188,12 +188,6 @@ body {
   border-radius: 8px;
 }
 
-/* .more a {
-  color: #66023c;
-  text-decoration: none;
-  font-size: 20px;
-} */
-
 .more:hover {
   background-color: #66023c;
   border: 2px solid #66023c;
@@ -239,7 +233,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* border-bottom: 2px solid rgba(255, 203, 5, 0.925); */
+  border-bottom: 2px solid transparent;
 }
 
 .poke-text h3 {
@@ -279,7 +273,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* border-bottom: 2px solid rgba(255, 125, 19, 0.925); */
+  border-bottom: 2px solid transparent;
 }
 
 .movie-text h3 {
@@ -319,7 +313,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* border-bottom: 2px solid rgba(255, 19, 117, 0.925); */
+  border-bottom: 2px solid transparent;
 }
 
 .todo-text h3 {
@@ -359,7 +353,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* border-bottom: 2px solid rgba(255, 200, 19, 0.925); */
+  border-bottom: 2px solid transparent;
 }
 
 .drum-machine-text h3 {
@@ -399,7 +393,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* border-bottom: 2px solid rgba(9, 126, 116, 0.5); */
+  border-bottom: 2px solid transparent;
 }
 
 .markdown-previewer-text h3 {
@@ -439,7 +433,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* border-bottom: 2px solid rgba(209, 52, 24, 0.842); */
+  border-bottom: 2px solid transparent;
 }
 
 .quote-machine-text h3 {
@@ -479,7 +473,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* border-bottom: 2px solid rgba(24, 73, 209, 0.842); */
+  border-bottom: 2px solid transparent;
 }
 
 .github-profile-text h3 {
@@ -735,10 +729,10 @@ form button {
 
   .down-arrow a {
     text-decoration: none;
-    color: #b768a2;
+    color: #66023c;
     width: 15px;
     height: 15px;
-    border: 5px solid #b768a2;
+    border: 5px solid #66023c;
     border-left: 0;
     border-top: 0;
     transform: rotate(45deg);
