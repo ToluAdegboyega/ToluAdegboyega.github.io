@@ -188,17 +188,17 @@ body {
   border-radius: 8px;
 }
 
-.more a {
+/* .more a {
   color: #66023c;
   text-decoration: none;
   font-size: 20px;
-}
+} */
 
 .more:hover {
   background-color: #66023c;
 }
 
-.more a:hover {
+.more a {
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -796,8 +796,7 @@ form button {
   .main-project {
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 50px 20px 50px 20px;
   }
 
   .poke,
