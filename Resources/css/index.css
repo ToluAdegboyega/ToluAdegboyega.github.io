@@ -177,13 +177,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 20px 50px 20px;
+  margin: 50px 20px 50px 20px;
 }
 
 .more {
   margin-top: 40px;
   padding: 15px;
-  border: 2px solid #66023c;
+  border: 2px solid #b768a2;
   background-color: transparent;
   border-radius: 8px;
 }
@@ -196,6 +196,7 @@ body {
 
 .more:hover {
   background-color: #66023c;
+  border: 2px solid #66023c;
 }
 
 .more a {
@@ -238,7 +239,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(255, 203, 5, 0.925);
+  /* border-bottom: 2px solid rgba(255, 203, 5, 0.925); */
 }
 
 .poke-text h3 {
@@ -278,7 +279,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(255, 125, 19, 0.925);
+  /* border-bottom: 2px solid rgba(255, 125, 19, 0.925); */
 }
 
 .movie-text h3 {
@@ -318,7 +319,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(255, 19, 117, 0.925);
+  /* border-bottom: 2px solid rgba(255, 19, 117, 0.925); */
 }
 
 .todo-text h3 {
@@ -358,7 +359,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(255, 200, 19, 0.925);
+  /* border-bottom: 2px solid rgba(255, 200, 19, 0.925); */
 }
 
 .drum-machine-text h3 {
@@ -398,7 +399,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(9, 126, 116, 0.5);
+  /* border-bottom: 2px solid rgba(9, 126, 116, 0.5); */
 }
 
 .markdown-previewer-text h3 {
@@ -438,7 +439,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(209, 52, 24, 0.842);
+  /* border-bottom: 2px solid rgba(209, 52, 24, 0.842); */
 }
 
 .quote-machine-text h3 {
@@ -478,7 +479,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(24, 73, 209, 0.842);
+  /* border-bottom: 2px solid rgba(24, 73, 209, 0.842); */
 }
 
 .github-profile-text h3 {
