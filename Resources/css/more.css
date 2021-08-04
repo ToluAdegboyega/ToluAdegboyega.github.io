@@ -1,18 +1,14 @@
 body {
   font-family: "Inconsolata", monospace, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  background-color: white;
-  color: #b768a2;
+  background-color: rgb(249, 249, 249);
+  color: #001d3d;
   position: relative;
   width: 100%;
   margin: 0;
   padding: 0;
   height: 100%;
   overflow-x: hidden;
-}
-
-.main-header {
-  background-color: whitesmoke;
 }
 
 .nav-bar {
@@ -25,6 +21,9 @@ body {
   position: fixed;
   overflow: hidden;
   padding-top: 10px;
+  transition: 0.5s ease;
+  background-color: transparent;
+  backdrop-filter: blur(100px);
 }
 
 .nav-bar ul {
@@ -33,8 +32,8 @@ body {
 }
 
 .nav-bar a {
-  color: #b768a2;
-  text-decoration: none;
+  color: #001d3d;
+  text-decoration: overline 0.15em rgba(0, 0, 0, 0);
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 25px;
@@ -42,19 +41,15 @@ body {
   padding-bottom: 10px;
   padding-left: 10px;
   margin-right: 30px;
-  -webkit-transition: opacity 0.5s ease-out;
-  -moz-transition: opacity 0.5s ease-out;
-  -ms-transition: opacity 0.5s ease-out;
-  -o-transition: opacity 0.5s ease-out;
-  transition: opacity 0.5s ease-out;
+  transition: text-decoration 300ms;
+}
+
+.nav-bar a:hover {
+  text-decoration: overline 0.15em #000814;
 }
 
 .nav-bar li {
   display: inline;
-}
-
-.nav-bar a:hover {
-  opacity: 0.5;
 }
 
 .nav-bar .icon {
@@ -65,19 +60,17 @@ body {
   font-weight: 600;
   float: left;
   margin-left: 30px;
-  color: #b768a2;
+  color: #001d3d;
   font-size: 30px;
   font-family: "Dancing Script", cursive, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
 
 .footer {
-  background-color: whitesmoke;
   margin-bottom: -8px;
 }
 
 .nav-foot {
-  background-color: whitesmoke;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -94,7 +87,7 @@ body {
 }
 
 .nav-links a {
-  color: #b768a2;
+  color: #001d3d;
   text-decoration: none;
   font-weight: 400;
   font-size: 16px;
@@ -119,7 +112,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(4, 207, 113, 0.925);
+  /* border-bottom: 2px solid rgba(4, 207, 113, 0.925); */
 }
 
 .jumpstart-text h3 {
@@ -146,7 +139,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(4, 207, 113, 0.925);
   margin: 5px;
 }
@@ -159,7 +152,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(238, 66, 102, 0.5);
+  /* border-bottom: 2px solid rgba(238, 66, 102, 0.5); */
 }
 
 .style-conference-text h3 {
@@ -186,7 +179,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(211, 17, 59, 0.5);
   margin: 5px;
 }
@@ -199,7 +192,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(49, 208, 211, 0.5);
+  /* border-bottom: 2px solid rgba(49, 208, 211, 0.5); */
 }
 
 .tribute-text h3 {
@@ -226,7 +219,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(56, 210, 213, 0.5);
   margin: 5px;
 }
@@ -239,7 +232,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(246, 255, 75, 0.65);
+  /* border-bottom: 2px solid rgba(246, 255, 75, 0.65); */
 }
 
 .survey-form-text h3 {
@@ -266,7 +259,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(246, 255, 75, 0.65);
   margin: 5px;
 }
@@ -279,7 +272,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(233, 100, 23, 0.65);
+  /* border-bottom: 2px solid rgba(233, 100, 23, 0.65); */
 }
 
 .product-landing h3 {
@@ -306,7 +299,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(233, 100, 23, 0.65);
   margin: 5px;
 }
@@ -319,7 +312,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(75, 102, 255, 0.65);
+  /* border-bottom: 2px solid rgba(75, 102, 255, 0.65); */
 }
 
 .tech-page-text h3 {
@@ -346,7 +339,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(75, 102, 255, 0.65);
   margin: 5px;
 }
@@ -359,7 +352,7 @@ body {
   padding-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(238, 66, 102, 0.5);
+  /* border-bottom: 2px solid rgba(238, 66, 102, 0.5); */
 }
 
 .port-page-text h3 {
@@ -379,7 +372,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(211, 17, 59, 0.5);
   margin: 5px;
 }
@@ -412,7 +405,7 @@ body {
 .tech-page-text p,
 .port-page-text p {
   font-size: 20px;
-  color: black;
+  color: #000814;
 }
 
 .jumpstart-button-a,
@@ -441,6 +434,24 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+.jumpstart-button-a a,
+.jumpstart-button-b a,
+.style-conference-button-a a,
+.style-conference-button-b a,
+.tribute-button-a a,
+.tribute-button-b a,
+.survey-form-button-a a,
+.survey-form-button-b a,
+.product-button-a a,
+.product-button-b a,
+.tech-page-button-a a,
+.tech-page-button-b a,
+.port-page-button-a a,
+.port-page-button-b a{
+  font-family: "Inconsolata", monospace, "Helvetica Neue", Helvetica, Arial,
+  sans-serif;
+}
+
 .jumpstart-text a,
 .style-conference-text a,
 .tribute-text a,
@@ -449,7 +460,7 @@ body {
 .tech-page-text a,
 .port-page-text a {
   text-decoration: none;
-  color: black;
+  color: #000814;
 }
 
 .jumpstart-text ul,

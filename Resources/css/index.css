@@ -1,8 +1,8 @@
 body {
   font-family: "Inconsolata", monospace, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  background-color: white;
-  color: #b768a2;
+  background-color: rgb(249, 249, 249);
+  color: #001d3d;
   position: relative;
   width: 100%;
   margin: 0;
@@ -32,7 +32,7 @@ body {
 }
 
 .nav-bar a {
-  color: #b768a2;
+  color: #001d3d;
   text-decoration: overline 0.15em rgba(0, 0, 0, 0);
   font-weight: 600;
   letter-spacing: 1px;
@@ -45,7 +45,7 @@ body {
 }
 
 .nav-bar a:hover {
-  text-decoration: overline 0.15em #66023c;
+  text-decoration: overline 0.15em #000814;
 }
 
 .nav-bar li {
@@ -56,7 +56,7 @@ body {
   font-weight: 600;
   float: left;
   margin-left: 30px;
-  color: #b768a2;
+  color: #001d3d;
   font-size: 30px;
   font-family: "Dancing Script", cursive, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
@@ -95,10 +95,10 @@ body {
 
 .down-arrow a {
   text-decoration: none;
-  color: #66023c;
+  color: #000814;
   width: 30px;
   height: 30px;
-  border: 10px solid #66023c;
+  border: 10px solid #000814;
   border-left: 0;
   border-top: 0;
   transform: rotate(45deg);
@@ -106,13 +106,13 @@ body {
 
 .main-body h1 {
   font-size: 80px;
-  color: #66023c;
+  color: #000814;
   display: inline-block;
 }
 
 .main-body p {
   font-size: 40px;
-  color: #b768a2;
+  color: #001d3d;
   text-align: center;
   margin-top: 1px;
 }
@@ -130,7 +130,7 @@ body {
   margin-right: 15px;
   margin-left: 15px;
   border-radius: 50%;
-  border: 3px solid #66023c;
+  border: 3px solid #000814;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -139,7 +139,7 @@ body {
 }
 
 .social-media a {
-  color: #66023c;
+  color: #000814;
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 1px;
@@ -167,9 +167,9 @@ body {
   padding-top: 30px;
   margin-top: 16px;
   margin-bottom: 16px;
-  color: #66023c;
+  color: #000814;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 .main-project {
@@ -183,14 +183,14 @@ body {
 .more {
   margin-top: 40px;
   padding: 15px;
-  border: 2px solid #b768a2;
+  border: 2px solid #001d3d;
   background-color: transparent;
   border-radius: 8px;
 }
 
 .more:hover {
-  background-color: #66023c;
-  border: 2px solid #66023c;
+  background-color: #000814;
+  border: 2px solid #000814;
 }
 
 .more a {
@@ -260,7 +260,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(255, 203, 5, 0.925);
   margin: 5px;
 }
@@ -300,7 +300,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(255, 125, 19, 0.925);
   margin: 5px;
 }
@@ -340,7 +340,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(255, 19, 117, 0.925);
   margin: 5px;
 }
@@ -380,7 +380,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(255, 200, 19, 0.925);
   margin: 5px;
 }
@@ -420,7 +420,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(9, 126, 116, 0.5);
   margin: 5px;
 }
@@ -460,7 +460,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(209, 52, 24, 0.842);
   margin: 5px;
 }
@@ -500,7 +500,7 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 5px;
-  color: black;
+  color: #000814;
   border: 2px solid rgba(24, 73, 209, 0.842);
   margin: 5px;
 }
@@ -534,7 +534,7 @@ body {
 .quote-machine-text p,
 .github-profile-text p {
   font-size: 20px;
-  color: black;
+  color: #000814;
 }
 
 .poke-button-a,
@@ -563,6 +563,24 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+.poke-button-a a,
+.poke-button-b a,
+.movie-button-a a,
+.movie-button-b a,
+.todo-button-a a,
+.todo-button-b a,
+.drum-machine-button-a a,
+.drum-machine-button-b a,
+.markdown-previewer-button-a a,
+.markdown-previewer-button-b a,
+.quote-machine-button-a a,
+.quote-machine-button-b a,
+.github-profile-button-a a,
+.github-profile-button-b a {
+  font-family: "Inconsolata", monospace, "Helvetica Neue", Helvetica, Arial,
+  sans-serif;
+}
+
 .poke-text a,
 .movie-text a,
 .todo-text a,
@@ -571,7 +589,7 @@ body {
 .quote-machine-text a,
 .github-profile-text a {
   text-decoration: none;
-  color: black;
+  color: #000814;
 }
 
 .poke-text ul,
@@ -593,7 +611,7 @@ body {
 }
 
 .main-contact h1 {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 30px;
   font-weight: 400;
   padding-left: 50px;
@@ -611,14 +629,14 @@ body {
 }
 
 form {
-  background-color: #66023c;
+  background-color: #000814;
   border-radius: 20px;
   padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #b768a2;
+  color: #001d3d;
 }
 
 label {
@@ -633,6 +651,9 @@ label input {
   border-radius: 5px;
   padding-left: 5px;
   font-size: 15px;
+  font-family: "Inconsolata", monospace, "Helvetica Neue", Helvetica, Arial,
+  sans-serif;
+  border: none;
 }
 
 label textarea {
@@ -643,6 +664,7 @@ label textarea {
   padding-left: 5px;
   padding-top: 5px;
   font-size: 15px;
+  border: none;
 }
 
 form button {
@@ -650,14 +672,15 @@ form button {
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
-  color: #b768a2;
+  color: #001d3d;
   font-weight: 700;
   width: 80px;
+  border: none;
 }
 
 .fa-envelope {
   text-decoration: none;
-  color: #66023c;
+  color: #000814;
   font-size: 100px;
 }
 
@@ -682,7 +705,7 @@ form button {
 }
 
 .nav-links a {
-  color: #b768a2;
+  color: #001d3d;
   text-decoration: none;
   font-weight: 400;
   font-size: 16px;
@@ -729,10 +752,10 @@ form button {
 
   .down-arrow a {
     text-decoration: none;
-    color: #66023c;
+    color: #000814;
     width: 15px;
     height: 15px;
-    border: 5px solid #66023c;
+    border: 5px solid #000814;
     border-left: 0;
     border-top: 0;
     transform: rotate(45deg);
@@ -880,14 +903,14 @@ form button {
   }
 
   .main-contact h1 {
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     font-size: 25px;
     font-weight: 400;
   }
 
   .fa-envelope {
     text-decoration: none;
-    color: #66023c;
+    color: #000814;
     font-size: 50px;
   }
 }
@@ -948,7 +971,7 @@ form button {
   font-size: 400;
   font-size: 30px;
   padding: 5px;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   text-align: center;
 }
 
@@ -999,7 +1022,7 @@ form button {
 
 .resume-button a {
   text-decoration: none;
-  color: black;
+  color: #000814;
 }
 
 .about-img img {
@@ -1015,13 +1038,13 @@ form button {
   font-size: 30px;
   margin-top: 16px;
   margin-bottom: 16px;
-  color: #66023c;
+  color: #000814;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 .main-skills {
-  background-color: #66023c;
+  background-color: #000814;
   padding: 10px;
   margin-top: 50px;
   color: white;
@@ -1062,7 +1085,7 @@ form button {
     font-size: 400;
     font-size: 20px;
     padding: 5px;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     text-align: center;
   }
 
