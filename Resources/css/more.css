@@ -104,6 +104,86 @@ body {
   margin: 100px 20px 100px 20px;
 }
 
+.drum-machine {
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid transparent;
+}
+
+.drum-machine-text h3 {
+  color: rgba(255, 200, 19, 0.925);
+  font-size: 30px;
+}
+
+.drum-machine-button-a:hover,
+.drum-machine-button-a:focus {
+  background: rgba(255, 200, 19, 0.925);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.drum-machine-button-b:hover,
+.drum-machine-button-b:focus {
+  background: rgba(255, 200, 19, 0.925);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.drum-machine-text li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  color: #000814;
+  border: 2px solid rgba(255, 200, 19, 0.925);
+  margin: 5px;
+}
+
+.markdown-previewer {
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid transparent;
+}
+
+.markdown-previewer-text h3 {
+  color: rgba(9, 126, 116, 0.5);
+  font-size: 30px;
+}
+
+.markdown-previewer-button-a:hover,
+.markdown-previewer-button-a:focus {
+  background: rgba(9, 126, 116, 0.5);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.markdown-previewer-button-b:hover,
+.markdown-previewer-button-b:focus {
+  background: rgba(9, 126, 116, 0.5);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.markdown-previewer-text li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  color: #000814;
+  border: 2px solid rgba(9, 126, 116, 0.5);
+  margin: 5px;
+}
+
 .jumpstart {
   display: flex;
   align-items: center;
@@ -377,6 +457,8 @@ body {
   margin: 5px;
 }
 
+.drum-machine,
+.markdown-previewer,
 .jumpstart,
 .style-conference,
 .tribute,
@@ -387,6 +469,8 @@ body {
   width: 90%;
 }
 
+.drum-machine-img img,
+.markdown-previewer-img img,
 .jumpstart-img img,
 .style-conference-img img,
 .tribute-img img,
@@ -395,8 +479,11 @@ body {
 .tech-page-img img,
 .port-page-img img {
   margin-right: 30px;
+  border-radius: 10px;
 }
 
+.drum-machine-text p,
+.markdown-previewer-text p,
 .jumpstart-text p,
 .style-conference-text p,
 .tribute-text p,
@@ -408,6 +495,10 @@ body {
   color: #000814;
 }
 
+.drum-machine-button-a,
+.drum-machine-button-b,
+.markdown-previewer-button-a,
+.markdown-previewer-button-b,
 .jumpstart-button-a,
 .jumpstart-button-b,
 .style-conference-button-a,
@@ -434,6 +525,10 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+.drum-machine-button-a a,
+.drum-machine-button-b a,
+.markdown-previewer-button-a a,
+.markdown-previewer-button-b a,
 .jumpstart-button-a a,
 .jumpstart-button-b a,
 .style-conference-button-a a,
@@ -452,6 +547,8 @@ body {
   sans-serif;
 }
 
+.drum-machine-text a,
+.markdown-previewer-text a,
 .jumpstart-text a,
 .style-conference-text a,
 .tribute-text a,
@@ -463,6 +560,8 @@ body {
   color: #000814;
 }
 
+.drum-machine-text ul,
+.markdown-previewer-text ul,
 .jumpstart-text ul,
 .style-conference-text ul,
 .tribute-text ul,
@@ -525,6 +624,8 @@ body {
     margin-right: 20px;
   }
 
+  .drum-machine,
+  .markdown-previewer,
   .jumpstart,
   .style-conference,
   .tribute,
@@ -538,6 +639,8 @@ body {
     padding-right: 10px;
   }
 
+  .drum-machine-text,
+  .markdown-previewer-text,
   .jumpstart-text,
   .style-conference-text,
   .tribute-text,
@@ -549,6 +652,8 @@ body {
     padding-left: 20px;
   }
 
+  .drum-machine-text h3,
+  .markdown-previewer-text h3,
   .jumpstart-text h3,
   .style-conference-text h3,
   .tribute-text h3,
@@ -559,6 +664,8 @@ body {
     font-size: 20px;
   }
 
+  .drum-machine-img img,
+  .markdown-previewer-img img,
   .jumpstart-img img,
   .style-conference-img img,
   .tribute-img img,
@@ -569,6 +676,8 @@ body {
     margin-left: 30px;
   }
 
+  .drum-machine-text p,
+  .markdown-previewer-text p,
   .jumpstart-text p,
   .style-conference-text p,
   .tribute-text p,
@@ -579,6 +688,10 @@ body {
     font-size: 18px;
   }
 
+  .drum-machine-button-a,
+  .drum-machine-button-b,
+  .markdown-previewer-button-a,
+  .markdown-previewer-button-b,
   .jumpstart-button-a,
   .jumpstart-button-b,
   .style-conference-button-a,
@@ -596,6 +709,8 @@ body {
     font-size: 15px;
   }
 
+  .drum-machine-text li,
+  .markdown-previewer-text li,
   .jumpstart-text li,
   .style-conference-text li,
   .tribute-text li,
@@ -608,6 +723,8 @@ body {
 }
 
 @media only screen and (max-width: 350px) {
+  .drum-machine-img img,
+  .markdown-previewer-img img,
   .jumpstart-img img,
   .style-conference-img img,
   .tribute-img img,

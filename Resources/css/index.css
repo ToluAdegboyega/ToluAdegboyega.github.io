@@ -345,86 +345,6 @@ body {
   margin: 5px;
 }
 
-.drum-machine {
-  display: flex;
-  align-items: center;
-  padding-bottom: 80px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid transparent;
-}
-
-.drum-machine-text h3 {
-  color: rgba(255, 200, 19, 0.925);
-  font-size: 30px;
-}
-
-.drum-machine-button-a:hover,
-.drum-machine-button-a:focus {
-  background: rgba(255, 200, 19, 0.925);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.drum-machine-button-b:hover,
-.drum-machine-button-b:focus {
-  background: rgba(255, 200, 19, 0.925);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.drum-machine-text li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 20px;
-  padding: 5px;
-  color: #000814;
-  border: 2px solid rgba(255, 200, 19, 0.925);
-  margin: 5px;
-}
-
-.markdown-previewer {
-  display: flex;
-  align-items: center;
-  padding-bottom: 80px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid transparent;
-}
-
-.markdown-previewer-text h3 {
-  color: rgba(9, 126, 116, 0.5);
-  font-size: 30px;
-}
-
-.markdown-previewer-button-a:hover,
-.markdown-previewer-button-a:focus {
-  background: rgba(9, 126, 116, 0.5);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.markdown-previewer-button-b:hover,
-.markdown-previewer-button-b:focus {
-  background: rgba(9, 126, 116, 0.5);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.markdown-previewer-text li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 20px;
-  padding: 5px;
-  color: #000814;
-  border: 2px solid rgba(9, 126, 116, 0.5);
-  margin: 5px;
-}
-
 .quote-machine {
   display: flex;
   align-items: center;
@@ -508,8 +428,6 @@ body {
 .poke,
 .movie,
 .todo,
-.drum-machine,
-.markdown-previewer,
 .quote-machine,
 .github-profile {
   width: 90%;
@@ -518,8 +436,6 @@ body {
 .poke-img img,
 .movie-img img,
 .todo-img img,
-.drum-machine-img img,
-.markdown-previewer-img img,
 .quote-machine-img img,
 .github-profile-img img {
   margin-right: 30px;
@@ -529,8 +445,6 @@ body {
 .poke-text p,
 .movie-text p,
 .todo-text p,
-.drum-machine-text p,
-.markdown-previewer-text p,
 .quote-machine-text p,
 .github-profile-text p {
   font-size: 20px;
@@ -543,10 +457,6 @@ body {
 .movie-button-b,
 .todo-button-a,
 .todo-button-b,
-.drum-machine-button-a,
-.drum-machine-button-b,
-.markdown-previewer-button-a,
-.markdown-previewer-button-b,
 .quote-machine-button-a,
 .quote-machine-button-b,
 .github-profile-button-a,
@@ -569,10 +479,6 @@ body {
 .movie-button-b a,
 .todo-button-a a,
 .todo-button-b a,
-.drum-machine-button-a a,
-.drum-machine-button-b a,
-.markdown-previewer-button-a a,
-.markdown-previewer-button-b a,
 .quote-machine-button-a a,
 .quote-machine-button-b a,
 .github-profile-button-a a,
@@ -584,8 +490,6 @@ body {
 .poke-text a,
 .movie-text a,
 .todo-text a,
-.drum-machine-text a,
-.markdown-previewer-text a,
 .quote-machine-text a,
 .github-profile-text a {
   text-decoration: none;
@@ -595,8 +499,6 @@ body {
 .poke-text ul,
 .movie-text ul,
 .todo-text ul,
-.drum-machine-text ul,
-.markdown-previewer-text ul,
 .quote-machine-text ul,
 .github-profile-text ul {
   padding-left: 0px;
@@ -820,8 +722,6 @@ form button {
   .poke,
   .movie,
   .todo,
-  .drum-machine,
-  .markdown-previewer,
   .quote-machine,
   .github-profile {
     display: flex;
@@ -833,8 +733,6 @@ form button {
   .poke-text,
   .movie-text,
   .todo-text,
-  .drum-machine-text,
-  .markdown-previewer-text,
   .quote-machine-text,
   .github-profile-text {
     padding-right: 20px;
@@ -844,8 +742,6 @@ form button {
   .poke-text h3,
   .movie-text h3,
   .todo-text h3,
-  .drum-machine-text h3,
-  .markdown-previewer-text h3,
   .quote-machine-text h3,
   .github-profile-text h3 {
     font-size: 20px;
@@ -854,8 +750,6 @@ form button {
   .poke-img img,
   .movie-img img,
   .todo-img img,
-  .drum-machine-img img,
-  .markdown-previewer-img img,
   .quote-machine-img img,
   .github-profile-img img {
     margin-right: 0px;
@@ -864,8 +758,6 @@ form button {
   .poke-text p,
   .movie-text p,
   .todo-text p,
-  .drum-machine-text p,
-  .markdown-previewer-text p,
   .quote-machine-text p,
   .github-profile-text p {
     font-size: 18px;
@@ -877,10 +769,6 @@ form button {
   .movie-button-b,
   .todo-button-a,
   .todo-button-b,
-  .drum-machine-button-a,
-  .drum-machine-button-b,
-  .markdown-previewer-button-a,
-  .markdown-previewer-button-b,
   .quote-machine-button-a,
   .quote-machine-button-b,
   .github-profile-button-a,
@@ -891,8 +779,6 @@ form button {
   .poke-text li,
   .movie-text li,
   .todo-text li,
-  .drum-machine-text li,
-  .markdown-previewer-text li,
   .quote-machine-text li,
   .github-profile-text li {
     font-size: 15px;
@@ -946,8 +832,6 @@ form button {
   .poke-img img,
   .movie-img img,
   .todo-img img,
-  .drum-machine-img img,
-  .markdown-previewer-img img,
   .quote-machine-img img,
   .github-profile-img img {
     width: 250px;
