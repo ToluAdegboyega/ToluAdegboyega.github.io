@@ -104,6 +104,46 @@ body {
   margin: 100px 20px 100px 20px;
 }
 
+.github-profile {
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid transparent;
+}
+
+.github-profile-text h3 {
+  color: rgba(24, 73, 209, 0.842);
+  font-size: 30px;
+}
+
+.github-profile-button-a:hover,
+.github-profile-button-a:focus {
+  background: rgba(24, 73, 209, 0.842);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.github-profile-button-b:hover,
+.github-profile-button-b:focus {
+  background: rgba(24, 73, 209, 0.842);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.github-profile-text li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  color: #000814;
+  border: 2px solid rgba(24, 73, 209, 0.842);
+  margin: 5px;
+}
+
 .drum-machine {
   display: flex;
   align-items: center;
@@ -457,6 +497,7 @@ body {
   margin: 5px;
 }
 
+.github-profile,
 .drum-machine,
 .markdown-previewer,
 .jumpstart,
@@ -469,6 +510,7 @@ body {
   width: 90%;
 }
 
+.github-profile-img img,
 .drum-machine-img img,
 .markdown-previewer-img img,
 .jumpstart-img img,
@@ -482,6 +524,7 @@ body {
   border-radius: 10px;
 }
 
+.github-profile-text p,
 .drum-machine-text p,
 .markdown-previewer-text p,
 .jumpstart-text p,
@@ -495,6 +538,8 @@ body {
   color: #000814;
 }
 
+.github-profile-button-a,
+.github-profile-button-b,
 .drum-machine-button-a,
 .drum-machine-button-b,
 .markdown-previewer-button-a,
@@ -525,6 +570,8 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+.github-profile-button-a a,
+.github-profile-button-b a,
 .drum-machine-button-a a,
 .drum-machine-button-b a,
 .markdown-previewer-button-a a,
@@ -547,6 +594,7 @@ body {
   sans-serif;
 }
 
+.github-profile-text a,
 .drum-machine-text a,
 .markdown-previewer-text a,
 .jumpstart-text a,
@@ -560,6 +608,7 @@ body {
   color: #000814;
 }
 
+.github-profile-text ul,
 .drum-machine-text ul,
 .markdown-previewer-text ul,
 .jumpstart-text ul,
@@ -624,6 +673,7 @@ body {
     margin-right: 20px;
   }
 
+  .github-profile,
   .drum-machine,
   .markdown-previewer,
   .jumpstart,
@@ -639,6 +689,7 @@ body {
     padding-right: 10px;
   }
 
+  .github-profile-text,
   .drum-machine-text,
   .markdown-previewer-text,
   .jumpstart-text,
@@ -652,6 +703,7 @@ body {
     padding-left: 20px;
   }
 
+  .github-profile-text h3,
   .drum-machine-text h3,
   .markdown-previewer-text h3,
   .jumpstart-text h3,
@@ -664,6 +716,7 @@ body {
     font-size: 20px;
   }
 
+  .github-profile-img img,
   .drum-machine-img img,
   .markdown-previewer-img img,
   .jumpstart-img img,
@@ -676,6 +729,7 @@ body {
     margin-left: 30px;
   }
 
+  .github-profile-text p,
   .drum-machine-text p,
   .markdown-previewer-text p,
   .jumpstart-text p,
@@ -688,6 +742,8 @@ body {
     font-size: 18px;
   }
 
+  .github-profile-button-a,
+  .github-profile-button-b,
   .drum-machine-button-a,
   .drum-machine-button-b,
   .markdown-previewer-button-a,
@@ -709,6 +765,7 @@ body {
     font-size: 15px;
   }
 
+  .github-profile-text li,
   .drum-machine-text li,
   .markdown-previewer-text li,
   .jumpstart-text li,
@@ -723,6 +780,7 @@ body {
 }
 
 @media only screen and (max-width: 350px) {
+  .github-profile-img img,
   .drum-machine-img img,
   .markdown-previewer-img img,
   .jumpstart-img img,

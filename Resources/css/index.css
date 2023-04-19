@@ -225,6 +225,46 @@ body {
   background-clip: text;
 }
 
+.where {
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid transparent;
+}
+
+.where-text h3 {
+  color: rgba(12, 108, 147, 0.925);
+  font-size: 30px;
+}
+
+.where-button-a:hover,
+.where-button-a:focus {
+  background: rgba(12, 108, 147, 0.925);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.where-button-b:hover,
+.where-button-b:focus {
+  background: rgba(12, 108, 147, 0.925);
+  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.where-text li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+  color: #000814;
+  border: 2px solid rgba(12, 108, 147, 0.925);
+  margin: 5px;
+}
+
 .poke {
   display: flex;
   align-items: center;
@@ -385,72 +425,35 @@ body {
   margin: 5px;
 }
 
-.github-profile {
-  display: flex;
-  align-items: center;
-  padding-bottom: 80px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid transparent;
-}
-
-.github-profile-text h3 {
-  color: rgba(24, 73, 209, 0.842);
-  font-size: 30px;
-}
-
-.github-profile-button-a:hover,
-.github-profile-button-a:focus {
-  background: rgba(24, 73, 209, 0.842);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.github-profile-button-b:hover,
-.github-profile-button-b:focus {
-  background: rgba(24, 73, 209, 0.842);
-  -webkit-box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 4px -2px rgba(0, 0, 0, 0.75);
-}
-
-.github-profile-text li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 20px;
-  padding: 5px;
-  color: #000814;
-  border: 2px solid rgba(24, 73, 209, 0.842);
-  margin: 5px;
-}
-
+.where,
 .poke,
 .movie,
 .todo,
-.quote-machine,
-.github-profile {
+.quote-machine {
   width: 90%;
 }
 
+.where-img img,
 .poke-img img,
 .movie-img img,
 .todo-img img,
-.quote-machine-img img,
-.github-profile-img img {
+.quote-machine-img img {
   margin-right: 30px;
   border-radius: 10px;
+  width: 350px;
 }
 
+.where-text p,
 .poke-text p,
 .movie-text p,
 .todo-text p,
-.quote-machine-text p,
-.github-profile-text p {
+.quote-machine-text p {
   font-size: 20px;
   color: #000814;
 }
 
+.where-button-a,
+.where-button-b,
 .poke-button-a,
 .poke-button-b,
 .movie-button-a,
@@ -458,9 +461,7 @@ body {
 .todo-button-a,
 .todo-button-b,
 .quote-machine-button-a,
-.quote-machine-button-b,
-.github-profile-button-a,
-.github-profile-button-b {
+.quote-machine-button-b {
   margin-top: 20px;
   padding: 5px 10px;
   border: none;
@@ -473,6 +474,8 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+.where-button-a a,
+.where-button-b a,
 .poke-button-a a,
 .poke-button-b a,
 .movie-button-a a,
@@ -480,27 +483,25 @@ body {
 .todo-button-a a,
 .todo-button-b a,
 .quote-machine-button-a a,
-.quote-machine-button-b a,
-.github-profile-button-a a,
-.github-profile-button-b a {
+.quote-machine-button-b a {
   font-family: "Inconsolata", monospace, "Helvetica Neue", Helvetica, Arial,
   sans-serif;
 }
 
+.where-text a,
 .poke-text a,
 .movie-text a,
 .todo-text a,
-.quote-machine-text a,
-.github-profile-text a {
+.quote-machine-text a {
   text-decoration: none;
   color: #000814;
 }
 
+.where-text ul,
 .poke-text ul,
 .movie-text ul,
 .todo-text ul,
-.quote-machine-text ul,
-.github-profile-text ul {
+.quote-machine-text ul {
   padding-left: 0px;
 }
 
@@ -719,50 +720,52 @@ form button {
     margin: 50px 20px 50px 20px;
   }
 
+  .where,
   .poke,
   .movie,
   .todo,
-  .quote-machine,
-  .github-profile {
+  .quote-machine {
     display: flex;
     flex-direction: column;
     padding-left: 10px;
     padding-right: 10px;
   }
 
+  .where-text,
   .poke-text,
   .movie-text,
   .todo-text,
-  .quote-machine-text,
-  .github-profile-text {
+  .quote-machine-text {
     padding-right: 20px;
     padding-left: 20px;
   }
 
+  .where-text h3,
   .poke-text h3,
   .movie-text h3,
   .todo-text h3,
-  .quote-machine-text h3,
-  .github-profile-text h3 {
+  .quote-machine-text h3 {
     font-size: 20px;
   }
 
+  .where-img img,
   .poke-img img,
   .movie-img img,
   .todo-img img,
-  .quote-machine-img img,
-  .github-profile-img img {
+  .quote-machine-img img {
     margin-right: 0px;
   }
 
+  .where-text p,
   .poke-text p,
   .movie-text p,
   .todo-text p,
-  .quote-machine-text p,
-  .github-profile-text p {
+  .quote-machine-text p {
     font-size: 18px;
   }
 
+  .where-button-a,
+  .where-button-b,
   .poke-button-a,
   .poke-button-b,
   .movie-button-a,
@@ -770,17 +773,15 @@ form button {
   .todo-button-a,
   .todo-button-b,
   .quote-machine-button-a,
-  .quote-machine-button-b,
-  .github-profile-button-a,
-  .github-profile-button-b {
+  .quote-machine-button-b {
     font-size: 15px;
   }
 
+  .where-text li,
   .poke-text li,
   .movie-text li,
   .todo-text li,
-  .quote-machine-text li,
-  .github-profile-text li {
+  .quote-machine-text li {
     font-size: 15px;
   }
 
@@ -829,11 +830,11 @@ form button {
 }
 
 @media only screen and (max-width: 390px) {
+  .where-img img,
   .poke-img img,
   .movie-img img,
   .todo-img img,
-  .quote-machine-img img,
-  .github-profile-img img {
+  .quote-machine-img img {
     width: 250px;
   }
 }
